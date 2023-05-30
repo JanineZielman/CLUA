@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.hero-sequence {
+    height: 1000vh;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sequence-element {
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+canvas{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+</style>
+
+<title>Apple Sequence Animation</title>
+
+<div class="hero">
+    <h1>Apple Sequence Animation</h1>
+    <p>Scroll down to admire the magic.</p>
+</div>
+
+<div class="hero-sequence">
+    <div class="sticky-element">
+        <div class="sequence-element">
+            <canvas width="600px" height="600px"></canvas>
+        </div>
+    </div>
+</div>
+
+<footer>
+    You are awesome!
+</footer>
+
+<script>
+const canvas = document.querySelector('canvas')
+const ctx = canvas.getContext('2d')
+const heroSequence = document.querySelector('.hero-sequence')
+const images = []
+const frameCount = 123
+
+const prepareImages = () => {
+  for (var i = 0; i < frameCount; i++) {
+    const image = new Image()
+    image.src = `./Export-1/230526_CLUAXNoraZeid_Illustration6_Misinformation${i.toString().padStart(3, '0')}.png`
+    images.push(image)
+
+    if (i === 0) {
+      images[i].onload = () => drawImage(0)
+    }
+  }
+}
+
+const drawImage = frameIndex => {
+    ctx.fillStyle = 'white';
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
+    ctx.drawImage(images[frameIndex], 0, 0)
+}
+
+prepareImages()
+
+window.addEventListener('scroll', () => {
+    const scrollTop = document.documentElement.scrollTop - heroSequence.offsetTop
+    const maxScrollTop = heroSequence.scrollHeight - window.innerHeight
+    const scrollFraction = scrollTop / maxScrollTop
+    const frameIndex = Math.max(0, Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount)))
+
+    images[frameIndex].onload = () => drawImage(frameIndex)
+    requestAnimationFrame(() => drawImage(frameIndex))
+})
+</script>
