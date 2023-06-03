@@ -52,6 +52,14 @@ p{
   height: 800vh;
 }
 
+.hero-sequence2, .hero-sequence3 {
+  height: 500vh;
+}
+
+.hero-sequence3{
+  /* background-color: white; */
+}
+
 .sticky-element {
   position: sticky;
   top: 0;

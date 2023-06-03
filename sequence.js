@@ -1,4 +1,4 @@
-const canvas = document.querySelector('canvas')
+const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
 const heroSequence = document.querySelector('.hero-sequence')
 const images = []
