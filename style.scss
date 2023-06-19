@@ -192,14 +192,6 @@ canvas{
     bottom: -5px;
     z-index: 999;
   }
-  h3{
-    transform: scale(0);
-    animation-delay: 0s, 5s;
-    animation-name: animation, animation2;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
   p{
     width: 100%;
   }
@@ -216,6 +208,20 @@ canvas{
     color: black;
     margin: 24px;
     transform: scale(0);
+  }
+}
+
+
+.aos-animate#section-2 {
+  a {
+    animation-name: animation, animation2;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  h3{
+    transform: scale(0);
+    animation-delay: 0s, 5s;
     animation-name: animation, animation2;
     animation-iteration-count: 1;
     animation-duration: 1s;
@@ -223,12 +229,14 @@ canvas{
   }
 }
 
-
 @for $i from 1 through 20 {
   #section-2 a:nth-child(#{$i}) {
       animation-delay: #{$i * 0.2}s, 5s;
   }
 }
+
+
+
 
 @keyframes animation {
   0% {
