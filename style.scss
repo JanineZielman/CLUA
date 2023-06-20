@@ -8,6 +8,10 @@
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
 
+*::selection {
+  background: #F8D254!important;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -140,6 +144,7 @@ canvas{
 }
 
 
+
 @keyframes msg1 {
   0% {
     margin-top: 50vh;
@@ -160,12 +165,12 @@ canvas{
   }
 }
 
-#section-2{
+.section2{
   background-color: #102527;
   color: white;
-  height: 150vh;
+  height: 140vh;
   justify-content: start;
-  padding-top: 40vh;
+  padding-top: 30vh;
   &:before{
     content: '';
     background: url(/images/hero-wave.svg);
@@ -192,11 +197,18 @@ canvas{
     bottom: -5px;
     z-index: 999;
   }
+}
+
+#section-2{
   p{
     width: 100%;
   }
   p:nth-child(2){
     width: 900px;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
   }
   a{
     padding: 24px;
@@ -206,13 +218,13 @@ canvas{
     border-radius: 25px;
     text-decoration: none;
     color: black;
-    margin: 24px;
+    margin: 14px;
     transform: scale(0);
   }
 }
 
 
-.aos-animate#section-2 {
+.aos-animate #section-2 {
   a {
     animation-name: animation, animation2;
     animation-iteration-count: 1;
@@ -220,12 +232,60 @@ canvas{
     animation-fill-mode: forwards;
   }
   h3{
-    transform: scale(0);
-    animation-delay: 0s, 5s;
-    animation-name: animation, animation2;
+    transform: scale(1);
+    animation-delay: 5s;
+    animation-name: animation2;
     animation-iteration-count: 1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+#section-3{
+  position: absolute;
+  top: 50vh;
+  margin-top: 40px;
+  p{
+    width: 100%;
+  }
+  a{
+    padding: 24px;
+    background-color: #5B9E52;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 14px;
+    transform: scale(0);
+  }
+}
+
+.aos-animate #section-3 {
+  a {
+    animation-name: animation;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  h3{
+    transform: scale(0);
+    animation-delay: 5s, 10s;
+    animation-name: animation;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@for $i from 1 through 20 {
+  #section-3 a:nth-child(#{$i}) {
+      animation-delay: #{$i * 0.2 + 5}s, 10s;
   }
 }
 
@@ -234,6 +294,7 @@ canvas{
       animation-delay: #{$i * 0.2}s, 5s;
   }
 }
+
 
 
 

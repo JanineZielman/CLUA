@@ -6,6 +6,13 @@
   font-family: "Graphik";
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
+*::-moz-selection {
+  background: #F8D254 !important;
+}
+*::selection {
+  background: #F8D254 !important;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -156,14 +163,14 @@ canvas {
     transform: scale(1);
   }
 }
-#section-2 {
+.section2 {
   background-color: #102527;
   color: white;
-  height: 150vh;
+  height: 140vh;
   justify-content: start;
-  padding-top: 40vh;
+  padding-top: 30vh;
 }
-#section-2:before {
+.section2:before {
   content: "";
   background: url(/images/hero-wave.svg);
   width: 100%;
@@ -176,7 +183,7 @@ canvas {
   z-index: 999;
   transform: scale(-1);
 }
-#section-2:after {
+.section2:after {
   content: "";
   background: url(/images/hero-wave.svg);
   width: 100%;
@@ -188,11 +195,16 @@ canvas {
   bottom: -5px;
   z-index: 999;
 }
+
 #section-2 p {
   width: 100%;
 }
 #section-2 p:nth-child(2) {
   width: 900px;
+  display: block;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 #section-2 a {
   padding: 24px;
@@ -203,23 +215,143 @@ canvas {
   border-radius: 25px;
   text-decoration: none;
   color: black;
-  margin: 24px;
+  margin: 14px;
   transform: scale(0);
 }
 
-.aos-animate#section-2 a {
+.aos-animate #section-2 a {
   animation-name: animation, animation2;
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-.aos-animate#section-2 h3 {
-  transform: scale(0);
-  animation-delay: 0s, 5s;
-  animation-name: animation, animation2;
+.aos-animate #section-2 h3 {
+  transform: scale(1);
+  animation-delay: 5s;
+  animation-name: animation2;
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  text-align: center;
+  width: 100%;
+}
+
+#section-3 {
+  position: absolute;
+  top: 50vh;
+  margin-top: 40px;
+}
+#section-3 p {
+  width: 100%;
+}
+#section-3 a {
+  padding: 24px;
+  background-color: #5B9E52;
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  margin: 14px;
+  transform: scale(0);
+}
+
+.aos-animate #section-3 a {
+  animation-name: animation;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.aos-animate #section-3 h3 {
+  transform: scale(0);
+  animation-delay: 5s, 10s;
+  animation-name: animation;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  text-align: center;
+  width: 100%;
+}
+
+#section-3 a:nth-child(1) {
+  animation-delay: 5.2s, 10s;
+}
+
+#section-3 a:nth-child(2) {
+  animation-delay: 5.4s, 10s;
+}
+
+#section-3 a:nth-child(3) {
+  animation-delay: 5.6s, 10s;
+}
+
+#section-3 a:nth-child(4) {
+  animation-delay: 5.8s, 10s;
+}
+
+#section-3 a:nth-child(5) {
+  animation-delay: 6s, 10s;
+}
+
+#section-3 a:nth-child(6) {
+  animation-delay: 6.2s, 10s;
+}
+
+#section-3 a:nth-child(7) {
+  animation-delay: 6.4s, 10s;
+}
+
+#section-3 a:nth-child(8) {
+  animation-delay: 6.6s, 10s;
+}
+
+#section-3 a:nth-child(9) {
+  animation-delay: 6.8s, 10s;
+}
+
+#section-3 a:nth-child(10) {
+  animation-delay: 7s, 10s;
+}
+
+#section-3 a:nth-child(11) {
+  animation-delay: 7.2s, 10s;
+}
+
+#section-3 a:nth-child(12) {
+  animation-delay: 7.4s, 10s;
+}
+
+#section-3 a:nth-child(13) {
+  animation-delay: 7.6s, 10s;
+}
+
+#section-3 a:nth-child(14) {
+  animation-delay: 7.8s, 10s;
+}
+
+#section-3 a:nth-child(15) {
+  animation-delay: 8s, 10s;
+}
+
+#section-3 a:nth-child(16) {
+  animation-delay: 8.2s, 10s;
+}
+
+#section-3 a:nth-child(17) {
+  animation-delay: 8.4s, 10s;
+}
+
+#section-3 a:nth-child(18) {
+  animation-delay: 8.6s, 10s;
+}
+
+#section-3 a:nth-child(19) {
+  animation-delay: 8.8s, 10s;
+}
+
+#section-3 a:nth-child(20) {
+  animation-delay: 9s, 10s;
 }
 
 #section-2 a:nth-child(1) {
