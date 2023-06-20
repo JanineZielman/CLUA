@@ -5,7 +5,7 @@ const images3 = []
 const frameCount3 = 60
 
 const prepareImages3 = () => {
-  for (var i = 0; i < frameCount2; i++) {
+  for (var i = 0; i < frameCount3; i++) {
     const image = new Image()
     image.src = `./Export-3/230526_CLUAXNoraZeid_Illustration5_GreenFaith${i.toString().padStart(2, '0')}.png`
     images3.push(image)

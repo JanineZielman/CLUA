@@ -17,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Azo";
-  background-color: #D8D8D8;
+  background-color: #F1F2ED;
 }
 
 h1 {
@@ -33,11 +33,18 @@ h1 {
 h2, h3 {
   text-transform: uppercase;
   font-size: 64px;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Graphik";
   max-width: 900px;
   line-height: 1.1;
   max-width: 95%;
+  display: block;
+}
+
+h4 {
+  font-size: 24px;
+  max-width: 95%;
+  width: 900px;
 }
 
 p {
@@ -58,10 +65,15 @@ p {
 
 .hero-sequence {
   height: 800vh;
+  width: 100%;
 }
 
 .hero-sequence2, .hero-sequence3 {
   height: 500vh;
+}
+
+.hero-sequence4 {
+  height: 200vh;
 }
 
 .hero-sequence3 {
@@ -80,8 +92,6 @@ p {
 }
 
 .sequence-element {
-  width: 600px;
-  height: 600px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -122,7 +132,7 @@ canvas {
   width: -moz-fit-content;
   width: fit-content;
   max-width: 600px;
-  margin: 14px 0;
+  margin: 24px 0;
   box-shadow: 5px 5px 20px -2px #000000;
   text-align: left;
 }
@@ -449,4 +459,34 @@ canvas {
   100% {
     transform: scale(0);
   }
+}
+#section-4 {
+  background-color: #5B9E52;
+}
+
+#section-5 p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+#section-5 a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  margin: 24px;
+  display: inline-block;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px -2px #000000;
+  transition: transform 0.4s ease;
+}
+#section-5 a:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
