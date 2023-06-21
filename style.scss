@@ -8,15 +8,25 @@
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
 
+$yellow: #FFD857;
+$orange: #CC8C25;
+$lgreen: #81A362;
+$blue: #4B8D9F;
+$dgreen: #344F2F;
+$light: #F1F2ED;
+$dark: #102527;
+$grey: #E6E8E3;
+
 *::selection {
-  background: #F8D254!important;
+  background: $yellow!important;
 }
 
 body{
   margin: 0;
   padding: 0;
   font-family: "Azo";
-  background-color: #F1F2ED;
+  background-color: $light;
+  color: $dark;
 }
 
 h1{
@@ -41,7 +51,7 @@ h2, h3{
 }
 
 h4{
-  font-size: 24px;
+  font-size: 20px;
   max-width: 95%;
   width: 900px;
 }
@@ -178,8 +188,7 @@ canvas{
 }
 
 .section2{
-  background-color: #334E2E;
-  color: white;
+  background-color: $lgreen;
   height: 140vh;
   justify-content: start;
   padding-top: 30vh;
@@ -224,14 +233,16 @@ canvas{
   }
   a{
     padding: 24px;
-    background-color: #F8D254;
+    background-color: $dark;
     display: inline-block;
     width: fit-content;
     border-radius: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 14px;
     transform: scale(0);
+    -webkit-box-shadow: 5px 5px 20px -2px #000000; 
+    box-shadow: 5px 5px 20px -2px #000000;
   }
 }
 
@@ -245,7 +256,7 @@ canvas{
   }
   h3{
     transform: scale(1);
-    animation-delay: 5s;
+    animation-delay: 6s;
     animation-name: animation2;
     animation-iteration-count: 1;
     animation-duration: 1s;
@@ -265,14 +276,16 @@ canvas{
   }
   a{
     padding: 24px;
-    background-color: #5B9E52;
+    background-color: white;
     display: inline-block;
     width: fit-content;
     border-radius: 25px;
     text-decoration: none;
-    color: black;
+    color: $dark;
     margin: 14px;
     transform: scale(0);
+    -webkit-box-shadow: 5px 5px 20px -2px #000000; 
+    box-shadow: 5px 5px 20px -2px #000000;
   }
 }
 
@@ -285,7 +298,7 @@ canvas{
   }
   h3{
     transform: scale(0);
-    animation-delay: 5s, 10s;
+    animation-delay: 6s, 12s;
     animation-name: animation;
     animation-iteration-count: 1;
     animation-duration: 1s;
@@ -297,13 +310,13 @@ canvas{
 
 @for $i from 1 through 20 {
   #section-3 a:nth-child(#{$i}) {
-      animation-delay: #{$i * 0.2 + 5}s, 10s;
+      animation-delay: #{$i * 0.3 + 6}s, 12s;
   }
 }
 
 @for $i from 1 through 20 {
   #section-2 a:nth-child(#{$i}) {
-      animation-delay: #{$i * 0.2}s, 5s;
+      animation-delay: #{$i * 0.3}s, 6s;
   }
 }
 
@@ -328,11 +341,19 @@ canvas{
 }
 
 #section-4{
-  background-color: #5B9E52;
+  background-color: $dgreen;
+  color: white;
 }
 
 
 #section-5{
+  h2{
+    margin-top: 48px;
+  }
+  h4{
+    max-width: 600px;
+    margin-top: 64px;
+  }
   p{
     width: 100%;
     display: flex;
@@ -341,9 +362,8 @@ canvas{
     vertical-align: middle;
   }
   a{
-    background-color: white;
     text-decoration: none;
-    color: black;
+    color: $dark;
     margin: 24px;
     display: inline-block;
     width: 20vw;
@@ -353,11 +373,110 @@ canvas{
     justify-content: center;
     padding: 2vw;
     border-radius: 25px;
-    -webkit-box-shadow: 5px 5px 20px -2px #000000; 
-    box-shadow: 5px 5px 20px -2px #000000;
-    transition: transform 0.4s ease;
+    font-size: 36px;
+    // -webkit-box-shadow: 5px 5px 20px -2px #000000; 
+    // box-shadow: 5px 5px 20px -2px #000000;
+    transition: all 0.4s ease;
+    color: white;
     &:hover{
       transform: scale(1.1);
     }
+    &:nth-child(1){
+      background-color: $lgreen;
+      position: relative;
+      &:after{
+        content: ' ';
+        position: absolute;
+        width: 25vw;
+        height: 100%;
+        bottom: -25vw;
+        z-index: 999;
+        background-image: url(/images/line1.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    &:nth-child(2){
+      background-color: $blue;
+    }
+    &:nth-child(3){
+      background-color: $dgreen;
+    }
+  }
+}
+
+#section-6{
+  margin-top: 100px;
+  h2{
+    position: absolute;
+    top: 48px;
+  }
+  p{
+    background-color: white;
+    padding: 24px;
+    border-radius: 25px;
+    width: fit-content;
+    max-width: 600px;
+    margin: 24px 0;
+    -webkit-box-shadow: 5px 5px 20px -2px #000000; 
+    box-shadow: 5px 5px 20px -2px #000000;
+    text-align: left;
+  }
+  :nth-child(2){
+    transform: scale(0);
+  }
+  :nth-child(3){
+    transform: scale(0);
+  }
+  h4{
+    transform: scale(0);
+    position: absolute;
+    right: 2vw;
+    bottom: 10vh;
+    width: fit-content;
+    a{
+      text-decoration: none;
+      color: $dark;
+      background-color: $yellow;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.4s ease;
+      &:hover{
+        width: 300px;
+        height: 300px;
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+.aos-animate#section-6{
+  :nth-child(2){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  :nth-child(3){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  h4{
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
   }
 }

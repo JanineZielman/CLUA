@@ -7,10 +7,10 @@
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
 *::-moz-selection {
-  background: #F8D254 !important;
+  background: #FFD857 !important;
 }
 *::selection {
-  background: #F8D254 !important;
+  background: #FFD857 !important;
 }
 
 body {
@@ -18,6 +18,7 @@ body {
   padding: 0;
   font-family: "Azo";
   background-color: #F1F2ED;
+  color: #102527;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h2, h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
   max-width: 95%;
   width: 900px;
 }
@@ -174,8 +175,7 @@ canvas {
   }
 }
 .section2 {
-  background-color: #334E2E;
-  color: white;
+  background-color: #81A362;
   height: 140vh;
   justify-content: start;
   padding-top: 30vh;
@@ -218,15 +218,16 @@ canvas {
 }
 #section-2 a {
   padding: 24px;
-  background-color: #F8D254;
+  background-color: #102527;
   display: inline-block;
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 25px;
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 14px;
   transform: scale(0);
+  box-shadow: 5px 5px 20px -2px #000000;
 }
 
 .aos-animate #section-2 a {
@@ -237,7 +238,7 @@ canvas {
 }
 .aos-animate #section-2 h3 {
   transform: scale(1);
-  animation-delay: 5s;
+  animation-delay: 6s;
   animation-name: animation2;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -256,15 +257,16 @@ canvas {
 }
 #section-3 a {
   padding: 24px;
-  background-color: #5B9E52;
+  background-color: white;
   display: inline-block;
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 25px;
   text-decoration: none;
-  color: black;
+  color: #102527;
   margin: 14px;
   transform: scale(0);
+  box-shadow: 5px 5px 20px -2px #000000;
 }
 
 .aos-animate #section-3 a {
@@ -275,7 +277,7 @@ canvas {
 }
 .aos-animate #section-3 h3 {
   transform: scale(0);
-  animation-delay: 5s, 10s;
+  animation-delay: 6s, 12s;
   animation-name: animation;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -285,163 +287,163 @@ canvas {
 }
 
 #section-3 a:nth-child(1) {
-  animation-delay: 5.2s, 10s;
+  animation-delay: 6.3s, 12s;
 }
 
 #section-3 a:nth-child(2) {
-  animation-delay: 5.4s, 10s;
+  animation-delay: 6.6s, 12s;
 }
 
 #section-3 a:nth-child(3) {
-  animation-delay: 5.6s, 10s;
+  animation-delay: 6.9s, 12s;
 }
 
 #section-3 a:nth-child(4) {
-  animation-delay: 5.8s, 10s;
+  animation-delay: 7.2s, 12s;
 }
 
 #section-3 a:nth-child(5) {
-  animation-delay: 6s, 10s;
+  animation-delay: 7.5s, 12s;
 }
 
 #section-3 a:nth-child(6) {
-  animation-delay: 6.2s, 10s;
+  animation-delay: 7.8s, 12s;
 }
 
 #section-3 a:nth-child(7) {
-  animation-delay: 6.4s, 10s;
+  animation-delay: 8.1s, 12s;
 }
 
 #section-3 a:nth-child(8) {
-  animation-delay: 6.6s, 10s;
+  animation-delay: 8.4s, 12s;
 }
 
 #section-3 a:nth-child(9) {
-  animation-delay: 6.8s, 10s;
+  animation-delay: 8.7s, 12s;
 }
 
 #section-3 a:nth-child(10) {
-  animation-delay: 7s, 10s;
+  animation-delay: 9s, 12s;
 }
 
 #section-3 a:nth-child(11) {
-  animation-delay: 7.2s, 10s;
+  animation-delay: 9.3s, 12s;
 }
 
 #section-3 a:nth-child(12) {
-  animation-delay: 7.4s, 10s;
+  animation-delay: 9.6s, 12s;
 }
 
 #section-3 a:nth-child(13) {
-  animation-delay: 7.6s, 10s;
+  animation-delay: 9.9s, 12s;
 }
 
 #section-3 a:nth-child(14) {
-  animation-delay: 7.8s, 10s;
+  animation-delay: 10.2s, 12s;
 }
 
 #section-3 a:nth-child(15) {
-  animation-delay: 8s, 10s;
+  animation-delay: 10.5s, 12s;
 }
 
 #section-3 a:nth-child(16) {
-  animation-delay: 8.2s, 10s;
+  animation-delay: 10.8s, 12s;
 }
 
 #section-3 a:nth-child(17) {
-  animation-delay: 8.4s, 10s;
+  animation-delay: 11.1s, 12s;
 }
 
 #section-3 a:nth-child(18) {
-  animation-delay: 8.6s, 10s;
+  animation-delay: 11.4s, 12s;
 }
 
 #section-3 a:nth-child(19) {
-  animation-delay: 8.8s, 10s;
+  animation-delay: 11.7s, 12s;
 }
 
 #section-3 a:nth-child(20) {
-  animation-delay: 9s, 10s;
+  animation-delay: 12s, 12s;
 }
 
 #section-2 a:nth-child(1) {
-  animation-delay: 0.2s, 5s;
+  animation-delay: 0.3s, 6s;
 }
 
 #section-2 a:nth-child(2) {
-  animation-delay: 0.4s, 5s;
+  animation-delay: 0.6s, 6s;
 }
 
 #section-2 a:nth-child(3) {
-  animation-delay: 0.6s, 5s;
+  animation-delay: 0.9s, 6s;
 }
 
 #section-2 a:nth-child(4) {
-  animation-delay: 0.8s, 5s;
+  animation-delay: 1.2s, 6s;
 }
 
 #section-2 a:nth-child(5) {
-  animation-delay: 1s, 5s;
+  animation-delay: 1.5s, 6s;
 }
 
 #section-2 a:nth-child(6) {
-  animation-delay: 1.2s, 5s;
+  animation-delay: 1.8s, 6s;
 }
 
 #section-2 a:nth-child(7) {
-  animation-delay: 1.4s, 5s;
+  animation-delay: 2.1s, 6s;
 }
 
 #section-2 a:nth-child(8) {
-  animation-delay: 1.6s, 5s;
+  animation-delay: 2.4s, 6s;
 }
 
 #section-2 a:nth-child(9) {
-  animation-delay: 1.8s, 5s;
+  animation-delay: 2.7s, 6s;
 }
 
 #section-2 a:nth-child(10) {
-  animation-delay: 2s, 5s;
+  animation-delay: 3s, 6s;
 }
 
 #section-2 a:nth-child(11) {
-  animation-delay: 2.2s, 5s;
+  animation-delay: 3.3s, 6s;
 }
 
 #section-2 a:nth-child(12) {
-  animation-delay: 2.4s, 5s;
+  animation-delay: 3.6s, 6s;
 }
 
 #section-2 a:nth-child(13) {
-  animation-delay: 2.6s, 5s;
+  animation-delay: 3.9s, 6s;
 }
 
 #section-2 a:nth-child(14) {
-  animation-delay: 2.8s, 5s;
+  animation-delay: 4.2s, 6s;
 }
 
 #section-2 a:nth-child(15) {
-  animation-delay: 3s, 5s;
+  animation-delay: 4.5s, 6s;
 }
 
 #section-2 a:nth-child(16) {
-  animation-delay: 3.2s, 5s;
+  animation-delay: 4.8s, 6s;
 }
 
 #section-2 a:nth-child(17) {
-  animation-delay: 3.4s, 5s;
+  animation-delay: 5.1s, 6s;
 }
 
 #section-2 a:nth-child(18) {
-  animation-delay: 3.6s, 5s;
+  animation-delay: 5.4s, 6s;
 }
 
 #section-2 a:nth-child(19) {
-  animation-delay: 3.8s, 5s;
+  animation-delay: 5.7s, 6s;
 }
 
 #section-2 a:nth-child(20) {
-  animation-delay: 4s, 5s;
+  animation-delay: 6s, 6s;
 }
 
 @keyframes animation {
@@ -461,9 +463,17 @@ canvas {
   }
 }
 #section-4 {
-  background-color: #5B9E52;
+  background-color: #344F2F;
+  color: white;
 }
 
+#section-5 h2 {
+  margin-top: 48px;
+}
+#section-5 h4 {
+  max-width: 600px;
+  margin-top: 64px;
+}
 #section-5 p {
   width: 100%;
   display: flex;
@@ -472,9 +482,8 @@ canvas {
   vertical-align: middle;
 }
 #section-5 a {
-  background-color: white;
   text-decoration: none;
-  color: black;
+  color: #102527;
   margin: 24px;
   display: inline-block;
   width: 20vw;
@@ -484,9 +493,106 @@ canvas {
   justify-content: center;
   padding: 2vw;
   border-radius: 25px;
-  box-shadow: 5px 5px 20px -2px #000000;
-  transition: transform 0.4s ease;
+  font-size: 36px;
+  transition: all 0.4s ease;
+  color: white;
 }
 #section-5 a:hover {
   transform: scale(1.1);
+}
+#section-5 a:nth-child(1) {
+  background-color: #81A362;
+  position: relative;
+}
+#section-5 a:nth-child(1):after {
+  content: " ";
+  position: absolute;
+  width: 25vw;
+  height: 100%;
+  bottom: -25vw;
+  z-index: 999;
+  background-image: url(/images/line1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#section-5 a:nth-child(2) {
+  background-color: #4B8D9F;
+}
+#section-5 a:nth-child(3) {
+  background-color: #344F2F;
+}
+
+#section-6 {
+  margin-top: 100px;
+}
+#section-6 h2 {
+  position: absolute;
+  top: 48px;
+}
+#section-6 p {
+  background-color: white;
+  padding: 24px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 600px;
+  margin: 24px 0;
+  box-shadow: 5px 5px 20px -2px #000000;
+  text-align: left;
+}
+#section-6 :nth-child(2) {
+  transform: scale(0);
+}
+#section-6 :nth-child(3) {
+  transform: scale(0);
+}
+#section-6 h4 {
+  transform: scale(0);
+  position: absolute;
+  right: 2vw;
+  bottom: 10vh;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#section-6 h4 a {
+  text-decoration: none;
+  color: #102527;
+  background-color: #FFD857;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+#section-6 h4 a:hover {
+  width: 300px;
+  height: 300px;
+  font-size: 36px;
+}
+
+.aos-animate#section-6 :nth-child(2) {
+  transform: scale(0);
+  animation-name: msg1;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.aos-animate#section-6 :nth-child(3) {
+  transform: scale(0);
+  animation-name: msg1;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.aos-animate#section-6 h4 {
+  transform: scale(0);
+  animation-name: msg1;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }/*# sourceMappingURL=style.css.map */
