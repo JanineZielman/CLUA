@@ -54,6 +54,11 @@ p {
   width: 900px;
 }
 
+a {
+  text-decoration: none;
+  color: #102527;
+}
+
 .section {
   height: 100vh;
   width: 100vw;
@@ -557,19 +562,18 @@ canvas {
 #section-6 h4 a {
   text-decoration: none;
   color: #102527;
-  background-color: #FFD857;
-  border-radius: 50%;
   width: 200px;
   height: 200px;
   display: flex;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
   transition: all 0.4s ease;
+  background-color: #FFD857;
 }
 #section-6 h4 a:hover {
-  width: 300px;
-  height: 300px;
-  font-size: 36px;
+  transform: scale(3);
+  font-size: 8px;
 }
 
 .aos-animate#section-6 :nth-child(2) {
@@ -589,10 +593,29 @@ canvas {
   animation-fill-mode: forwards;
 }
 .aos-animate#section-6 h4 {
-  transform: scale(0);
-  animation-name: msg1;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
+  transform: scale(1);
+}
+
+#section-7 {
+  background-color: #81A362;
+}
+#section-7 h2 {
+  margin-bottom: 48px;
+}
+#section-7 p {
+  margin: 0;
+}
+#section-7 p em {
+  display: none;
+}
+#section-7 p a {
+  display: block;
+  margin: 14px 0;
+  text-align: left;
+  background-color: #102527;
+  color: white;
+  padding: 24px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */

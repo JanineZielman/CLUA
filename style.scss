@@ -62,6 +62,11 @@ p{
   width: 900px;
 }
 
+a{
+  text-decoration: none;
+  color: $dark;
+}
+
 .section{
   height: 100vh;
   width: 100vw;
@@ -437,18 +442,17 @@ canvas{
     a{
       text-decoration: none;
       color: $dark;
-      background-color: $yellow;
-      border-radius: 50%;
       width: 200px;
       height: 200px;
       display: flex;
+      border-radius: 50%;
       justify-content: center;
       align-items: center;
       transition: all 0.4s ease;
+      background-color: $yellow;
       &:hover{
-        width: 300px;
-        height: 300px;
-        font-size: 36px;
+        transform: scale(3);
+        font-size: 8px;
       }
     }
   }
@@ -472,11 +476,29 @@ canvas{
     animation-fill-mode: forwards;
   }
   h4{
-    transform: scale(0);
-    animation-name: msg1;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+    transform: scale(1);
+  }
+}
+
+#section-7{
+  background-color: $lgreen;
+  h2{
+    margin-bottom: 48px;
+  }
+  p{
+    margin: 0;
+  }
+  p em{
+    display: none;
+  }
+  p a{
+    display: block;
+    margin: 14px 0;
+    text-align: left;
+    background-color: $dark;
+    color: white;
+    padding: 24px;
+    border-radius: 25px;
+    width: fit-content;
   }
 }
