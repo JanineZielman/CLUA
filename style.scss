@@ -1,6 +1,13 @@
 @font-face {
   font-family: "Azo";
   src: url("./AzoSans-Medium.woff2") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Azo";
+  src: url("./AzoSans-Regular.woff2") format("woff");
+  font-weight: 300;
 }
 
 @font-face {
@@ -13,9 +20,29 @@ $white: #fff;
 $grey: #E6E8E3;
 $black: #000;
 
-// *::selection {
-//   background: $blue!important;
-// }
+.menu{
+  width: 100vw;
+  left: 0;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    height: 50px;
+    margin: 14px;
+  }
+  div{
+    display: flex;
+    width: auto;
+    margin-right: 14px;
+    p{
+      width: fit-content;
+      margin: 14px 14px;
+      font-size: 18px;
+    }
+  }
+}
 
 body{
   margin: 0;
@@ -23,7 +50,7 @@ body{
   font-family: "Azo";
   background-color: $white;
   color: $black;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 h1{
@@ -36,25 +63,30 @@ h1{
   max-width: 95%;
 }
 
-h2, h3{
+h2{
   text-transform: uppercase;
   font-size: 64px;
   margin: 0 auto;
   font-family: "Graphik";
   max-width: 900px;
-  line-height: 1.1;
-  max-width: 95%;
+  line-height: 1;
   display: block;
 }
 
+h3{
+  font-family: "Azo";
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 500;
+}
+
 h4{
-  font-size: 14px;
+  font-size: 18px;
   max-width: 95%;
   width: 900px;
   text-align: left;
-  &:before{
-    content: '*';
-  }
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 p{
@@ -69,14 +101,66 @@ a{
   color: $black;
 }
 
+figure{
+  padding: 0;
+  margin: 0;
+}
+
+.wp-block-image{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.signal{
+  border: 1px solid $black;
+  text-align: left;
+  padding: 24px 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 90vw;
+  max-width: 1200px;
+  margin: 24px auto 48px auto;
+  div{
+    &:nth-child(1){
+      width: 49%;
+      figure{
+        height: 100%;
+        object-fit: cover;
+        img{
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+    &:nth-child(2){
+      width: 49%;
+    }
+    p{
+      // display: none;
+      margin-top: 14px;
+      font-size: 18px;
+    }
+    h3{
+      border-bottom: 1px solid $black;
+      padding-bottom: 14px;
+      margin: 0;
+    }
+  }
+}
+
 .section{
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-sequence {
@@ -116,39 +200,45 @@ canvas{
 }
 
 .hero{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   img{
-    width: 100%;
-    height: auto;
-    max-height: 90vh;
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    height: 80vh;
     object-fit: contain;
-    margin-top: 100px;
+    margin: auto;
+    margin-top: 15vh;
+    text-align: center;
   }
   #section-1{
     position: absolute;
+    top: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+      margin: 0;
+      margin-top: 14px;
+      background-color: $white;
+      &:last-child{
+        background-color: $white;
+        width: fit-content;
+        padding: 5px 20px;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 10vh;
+        transform: scale(0);
+      }
+    }
   }
-  h1{
-    position: fixed;
-    top: 36px;
-    width: fit-content;
-  }
+
 }
 
 
-#section-1 p{
-  padding: 24px;
-  border-radius: 25px;
-  width: fit-content;
-  max-width: 600px;
-  margin: 24px 0;
-  text-align: left;
-}
-
-#section-1 p:nth-child(2){
-  transform: scale(0);
+.aos-animate #section-1 p:last-child{
   animation-name: msg1;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -156,14 +246,6 @@ canvas{
   animation-fill-mode: forwards;
 }
 
-#section-1 p:nth-child(3){
-  transform: scale(0);
-  animation-name: msg2;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-}
 
 
 
@@ -189,7 +271,7 @@ canvas{
 
 .section2{
   background-color: $grey;
-  height: 140vh;
+  height: 100vh;
   justify-content: start;
   padding-top: 30vh;
   &:before{
@@ -223,6 +305,14 @@ canvas{
 #section-2{
   p{
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
   }
   p:nth-child(2){
     width: 900px;
@@ -232,23 +322,36 @@ canvas{
     margin-bottom: 48px;
   }
   a{
-    padding: 24px;
-    display: inline-block;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
-    border-radius: 25px;
+    // aspect-ratio: 1/1;
+    border-radius: 50px;
     text-decoration: none;
     margin: 14px;
+    // border-radius: 50%;
+    // border: 1px solid $blue;
+    vertical-align: middle;
+    position: absolute;
+    top: 40%;
+    background-color: white;
     transform: scale(0);
+    white-space: nowrap;
+    // word-break: break-word;
+    // width: 20px;
+    // height: 20px;
   }
 }
 
 
 .aos-animate #section-2 {
   a {
-    animation-name: animation, animation2;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    // animation-name: animation;
+    // animation-iteration-count: 1;
+    // animation-duration: 1s;
+    // animation-fill-mode: forwards;
   }
   h3{
     transform: scale(1);
@@ -262,11 +365,46 @@ canvas{
   }
 }
 
+@for $i from 1 through 20 {
+  $randomNumber: random(50);
+  $randomNumber2: random(50);
+  .aos-animate #section-2 a:nth-child(#{$i}) {
+      animation-name: scale;
+      animation-iteration-count: 1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: #{$i * 0.2}s;
+      // transform: scale(1) rotate(#{$randomNumber / $i}deg) ;
+      // transform: scale(1);
+      left: #{$randomNumber * 1.5}vw;
+      top: #{$randomNumber2 * 2 + 5}vh;
+      // font-size: #{$randomNumber2 * 0.5 + 14}px;
+      // margin-left: #{$randomNumber2 * -10 }px;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(0) rotate(0) ;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+}
+
+
+
+
+
+  
+
+
 
 #section-3{
   position: absolute;
   top: 50vh;
   margin-top: 40px;
+  display: none;
   p{
     width: 100%;
   }
@@ -282,34 +420,28 @@ canvas{
   }
 }
 
-.aos-animate #section-3 {
-  a {
-    animation-name: animation;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-  h3{
-    transform: scale(0);
-    animation-delay: 6s, 12s;
-    animation-name: animation;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    text-align: center;
-    width: 100%;
-  }
-}
+// .aos-animate #section-3 {
+//   a {
+//     animation-name: animation;
+//     animation-iteration-count: 1;
+//     animation-duration: 1s;
+//     animation-fill-mode: forwards;
+//   }
+//   h3{
+//     transform: scale(0);
+//     animation-delay: 6s, 12s;
+//     animation-name: animation;
+//     animation-iteration-count: 1;
+//     animation-duration: 1s;
+//     animation-fill-mode: forwards;
+//     text-align: center;
+//     width: 100%;
+//   }
+// }
 
 @for $i from 1 through 20 {
   #section-3 a:nth-child(#{$i}) {
       animation-delay: #{$i * 0.3 + 6}s, 12s;
-  }
-}
-
-@for $i from 1 through 20 {
-  #section-2 a:nth-child(#{$i}) {
-      animation-delay: #{$i * 0.3}s, 6s;
   }
 }
 
@@ -334,12 +466,13 @@ canvas{
 }
 
 #section-4{
-  background-color: $grey;
+  background-color: white;
   color: $black;
 }
 
 
 #section-5{
+  background-color: $grey;
   h2{
     margin-top: 48px;
   }
@@ -367,13 +500,10 @@ canvas{
 }
 
 #section-6{
-  margin-top: 100px;
-  justify-content: start;
-  padding-top: 175px;
-  height: calc(100vh - 175px);
+  height: 100vh;
   h2{
     position: absolute;
-    top: 48px;
+    top: 10vh;
     width: 100%;
     max-width: 900px;
     text-align: left;
@@ -394,7 +524,7 @@ canvas{
   }
   h4{
     transform: scale(0);
-    position: absolute;
+    position: fixed;
     right: 2vw;
     bottom: 10vh;
     width: fit-content;
@@ -450,13 +580,74 @@ canvas{
   p em{
     display: none;
   }
-  p a{
-    display: block;
-    margin: 14px 0;
+  h3{
     text-align: left;
-    color: black;
-    padding: 24px;
-    border-radius: 25px;
+    width: 100%;
+    max-width: 900px;
+    margin: 14px 0;
+    border-bottom: 1px solid $black;
+    line-height: 1.1;
+    a{
+      font-weight: 300;
+      max-width: calc(100% - 50px);
+      display: block;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url(/images/arrow.svg);
+        background-size: contain;
+        right: -50px;
+        top: calc(50% - 14px);
+        transform: translateY(-50%);
+        transition: all 0.4s ease;
+      }
+      &:hover{
+        &:after{
+          right: -100px;
+        }
+      }
+      strong{
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+#section-8{
+  overflow-x: scroll;
+  // overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  -webkit-overflow-scrolling: touch;
+  h2{
+    position: sticky;
+    left: 40%;
+    top: 50px;
+    white-space: nowrap;
+  }
+  .signal{
+    // width: 500px;
+    // max-width: 500px;
     width: fit-content;
+    margin: 24px;
+    margin-top: 200px;
+    // position: absolute;
+    background-color: $white;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    div:nth-child(1){
+      width: 100%;
+      max-width: 500px;
+    }
+    div:nth-child(2){
+      width: auto;
+      max-width: 500px;
+    }
   }
 }
