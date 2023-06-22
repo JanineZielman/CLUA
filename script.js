@@ -5,7 +5,9 @@ async function logJSONData() {
   const jsonSections = await sections.json();
   jsonSections.reverse().forEach((element) => {
     // element.classList.add('non-active');
-    document.getElementById(element.slug).innerHTML = element.content.rendered
+    if (document.getElementById(element.slug)){
+      document.getElementById(element.slug).innerHTML = element.content.rendered
+    }
   });
 }
 
