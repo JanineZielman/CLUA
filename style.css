@@ -336,8 +336,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 55.5vw;
-  top: 41vh;
+  left: 70.5vw;
+  top: 33vh;
 }
 
 @keyframes scale {
@@ -354,8 +354,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 54vw;
-  top: 75vh;
+  left: 1.5vw;
+  top: 41vh;
 }
 
 @keyframes scale {
@@ -372,8 +372,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 49.5vw;
-  top: 51vh;
+  left: 58.5vw;
+  top: 89vh;
 }
 
 @keyframes scale {
@@ -390,8 +390,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 9vw;
-  top: 15vh;
+  left: 30vw;
+  top: 7vh;
 }
 
 @keyframes scale {
@@ -408,8 +408,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 31.5vw;
-  top: 105vh;
+  left: 61.5vw;
+  top: 65vh;
 }
 
 @keyframes scale {
@@ -426,8 +426,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 45vw;
-  top: 9vh;
+  left: 18vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -444,8 +444,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 30vw;
-  top: 27vh;
+  left: 21vw;
+  top: 61vh;
 }
 
 @keyframes scale {
@@ -462,8 +462,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 57vw;
-  top: 9vh;
+  left: 46.5vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -480,8 +480,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 52.5vw;
-  top: 71vh;
+  left: 10.5vw;
+  top: 61vh;
 }
 
 @keyframes scale {
@@ -498,8 +498,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 7.5vw;
-  top: 65vh;
+  left: 54vw;
+  top: 27vh;
 }
 
 @keyframes scale {
@@ -516,8 +516,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 25.5vw;
-  top: 17vh;
+  left: 24vw;
+  top: 27vh;
 }
 
 @keyframes scale {
@@ -534,8 +534,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 6vw;
-  top: 25vh;
+  left: 21vw;
+  top: 51vh;
 }
 
 @keyframes scale {
@@ -552,8 +552,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 27vw;
-  top: 59vh;
+  left: 21vw;
+  top: 105vh;
 }
 
 @keyframes scale {
@@ -570,8 +570,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 27vw;
-  top: 81vh;
+  left: 18vw;
+  top: 99vh;
 }
 
 @keyframes scale {
@@ -588,8 +588,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 54vw;
-  top: 57vh;
+  left: 9vw;
+  top: 65vh;
 }
 
 @keyframes scale {
@@ -606,8 +606,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 24vw;
-  top: 69vh;
+  left: 51vw;
+  top: 35vh;
 }
 
 @keyframes scale {
@@ -624,8 +624,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 43.5vw;
-  top: 83vh;
+  left: 9vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -642,8 +642,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 28.5vw;
-  top: 77vh;
+  left: 30vw;
+  top: 45vh;
 }
 
 @keyframes scale {
@@ -660,8 +660,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 58.5vw;
-  top: 17vh;
+  left: 31.5vw;
+  top: 47vh;
 }
 
 @keyframes scale {
@@ -679,7 +679,7 @@ canvas {
   animation-fill-mode: forwards;
   animation-delay: 4s;
   left: 13.5vw;
-  top: 71vh;
+  top: 31vh;
 }
 
 @keyframes scale {
@@ -829,12 +829,195 @@ canvas {
 #section-5 a {
   text-decoration: none;
   color: #000;
-  margin: 24px;
+  margin: 24px 0;
   display: block;
   font-size: 48px;
   text-align: left;
   border-bottom: 1px solid #000;
+  margin-left: 50vw;
   transition: all 0.4s ease;
+  opacity: 0;
+  width: 900px;
+}
+
+.aos-animate#section-5 a, .aos-animate#section-7 h3 {
+  animation-name: move-left;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-left {
+  0% {
+    margin-left: 50vw;
+    opacity: 0;
+    width: 900px;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+    width: 100%;
+  }
+}
+.aos-animate#section-5 p :nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.aos-animate#section-7 :nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.aos-animate#section-5 p :nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#section-7 :nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#section-5 p :nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.aos-animate#section-7 :nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.aos-animate#section-5 p :nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#section-7 :nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#section-5 p :nth-child(5) {
+  animation-delay: 1s;
+}
+
+.aos-animate#section-7 :nth-child(5) {
+  animation-delay: 1s;
+}
+
+.aos-animate#section-5 p :nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#section-7 :nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#section-5 p :nth-child(7) {
+  animation-delay: 1.4s;
+}
+
+.aos-animate#section-7 :nth-child(7) {
+  animation-delay: 1.4s;
+}
+
+.aos-animate#section-5 p :nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#section-7 :nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#section-5 p :nth-child(9) {
+  animation-delay: 1.8s;
+}
+
+.aos-animate#section-7 :nth-child(9) {
+  animation-delay: 1.8s;
+}
+
+.aos-animate#section-5 p :nth-child(10) {
+  animation-delay: 2s;
+}
+
+.aos-animate#section-7 :nth-child(10) {
+  animation-delay: 2s;
+}
+
+.aos-animate#section-5 p :nth-child(11) {
+  animation-delay: 2.2s;
+}
+
+.aos-animate#section-7 :nth-child(11) {
+  animation-delay: 2.2s;
+}
+
+.aos-animate#section-5 p :nth-child(12) {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#section-7 :nth-child(12) {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#section-5 p :nth-child(13) {
+  animation-delay: 2.6s;
+}
+
+.aos-animate#section-7 :nth-child(13) {
+  animation-delay: 2.6s;
+}
+
+.aos-animate#section-5 p :nth-child(14) {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#section-7 :nth-child(14) {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#section-5 p :nth-child(15) {
+  animation-delay: 3s;
+}
+
+.aos-animate#section-7 :nth-child(15) {
+  animation-delay: 3s;
+}
+
+.aos-animate#section-5 p :nth-child(16) {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#section-7 :nth-child(16) {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#section-5 p :nth-child(17) {
+  animation-delay: 3.4s;
+}
+
+.aos-animate#section-7 :nth-child(17) {
+  animation-delay: 3.4s;
+}
+
+.aos-animate#section-5 p :nth-child(18) {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#section-7 :nth-child(18) {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#section-5 p :nth-child(19) {
+  animation-delay: 3.8s;
+}
+
+.aos-animate#section-7 :nth-child(19) {
+  animation-delay: 3.8s;
+}
+
+.aos-animate#section-5 p :nth-child(20) {
+  animation-delay: 4s;
+}
+
+.aos-animate#section-7 :nth-child(20) {
+  animation-delay: 4s;
 }
 
 #section-6 {
@@ -858,6 +1041,7 @@ canvas {
 }
 #section-6 :nth-child(2) {
   transform: scale(0);
+  padding-top: 24px;
 }
 #section-6 :nth-child(3) {
   transform: scale(0);
@@ -866,7 +1050,7 @@ canvas {
   transform: scale(0);
   position: fixed;
   right: 2vw;
-  bottom: 10vh;
+  bottom: 0;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -926,6 +1110,8 @@ canvas {
   margin: 14px 0;
   border-bottom: 1px solid #000;
   line-height: 1.1;
+  margin-left: 50vw;
+  opacity: 0;
 }
 #section-7 h3 a {
   font-weight: 300;
@@ -970,11 +1156,11 @@ canvas {
   width: -moz-fit-content;
   width: fit-content;
   margin: 24px;
-  margin-top: 200px;
   background-color: #fff;
   flex: 0 0 auto;
   display: flex;
   align-items: center;
+  margin-top: 500px;
 }
 #section-8 .signal div:nth-child(1) {
   width: 100%;
@@ -983,6 +1169,102 @@ canvas {
 #section-8 .signal div:nth-child(2) {
   width: auto;
   max-width: 500px;
+}
+
+.aos-animate#section-8 .signal {
+  animation-name: move-up;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-up {
+  0% {
+    margin-top: 500px;
+  }
+  100% {
+    margin-top: 200px;
+  }
+}
+.aos-animate#section-8 .signal:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.aos-animate#section-8 .signal:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#section-8 .signal:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.aos-animate#section-8 .signal:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#section-8 .signal:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.aos-animate#section-8 .signal:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#section-8 .signal:nth-child(7) {
+  animation-delay: 1.4s;
+}
+
+.aos-animate#section-8 .signal:nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#section-8 .signal:nth-child(9) {
+  animation-delay: 1.8s;
+}
+
+.aos-animate#section-8 .signal:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.aos-animate#section-8 .signal:nth-child(11) {
+  animation-delay: 2.2s;
+}
+
+.aos-animate#section-8 .signal:nth-child(12) {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#section-8 .signal:nth-child(13) {
+  animation-delay: 2.6s;
+}
+
+.aos-animate#section-8 .signal:nth-child(14) {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#section-8 .signal:nth-child(15) {
+  animation-delay: 3s;
+}
+
+.aos-animate#section-8 .signal:nth-child(16) {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#section-8 .signal:nth-child(17) {
+  animation-delay: 3.4s;
+}
+
+.aos-animate#section-8 .signal:nth-child(18) {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#section-8 .signal:nth-child(19) {
+  animation-delay: 3.8s;
+}
+
+.aos-animate#section-8 .signal:nth-child(20) {
+  animation-delay: 4s;
 }
 
 .next {
