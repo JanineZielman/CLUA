@@ -12,3 +12,15 @@ async function logJSONData() {
 }
 
 logJSONData()
+
+
+const scrollContainer = document.getElementById("section-8");
+
+scrollContainer.addEventListener("wheel", (evt) => {
+    if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
+      evt.preventDefault();
+      scrollContainer.scrollLeft += evt.deltaY;
+    }
+    console.log(scrollContainer.scrollLeft)
+    console.log(scrollContainer.scrollWidth - scrollContainer.clientWidth)
+});

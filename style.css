@@ -336,8 +336,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 25.5vw;
-  top: 33vh;
+  left: 55.5vw;
+  top: 41vh;
 }
 
 @keyframes scale {
@@ -354,8 +354,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 49.5vw;
-  top: 11vh;
+  left: 54vw;
+  top: 75vh;
 }
 
 @keyframes scale {
@@ -372,8 +372,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 13.5vw;
-  top: 87vh;
+  left: 49.5vw;
+  top: 51vh;
 }
 
 @keyframes scale {
@@ -390,8 +390,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 22.5vw;
-  top: 59vh;
+  left: 9vw;
+  top: 15vh;
 }
 
 @keyframes scale {
@@ -408,8 +408,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 1.5vw;
-  top: 9vh;
+  left: 31.5vw;
+  top: 105vh;
 }
 
 @keyframes scale {
@@ -426,8 +426,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 46.5vw;
-  top: 47vh;
+  left: 45vw;
+  top: 9vh;
 }
 
 @keyframes scale {
@@ -444,8 +444,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 7.5vw;
-  top: 17vh;
+  left: 30vw;
+  top: 27vh;
 }
 
 @keyframes scale {
@@ -462,8 +462,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 61.5vw;
-  top: 77vh;
+  left: 57vw;
+  top: 9vh;
 }
 
 @keyframes scale {
@@ -480,8 +480,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 43.5vw;
-  top: 103vh;
+  left: 52.5vw;
+  top: 71vh;
 }
 
 @keyframes scale {
@@ -498,8 +498,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 34.5vw;
-  top: 47vh;
+  left: 7.5vw;
+  top: 65vh;
 }
 
 @keyframes scale {
@@ -516,8 +516,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 16.5vw;
-  top: 73vh;
+  left: 25.5vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -534,8 +534,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 52.5vw;
-  top: 33vh;
+  left: 6vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -552,8 +552,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 69vw;
-  top: 67vh;
+  left: 27vw;
+  top: 59vh;
 }
 
 @keyframes scale {
@@ -570,8 +570,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 73.5vw;
-  top: 79vh;
+  left: 27vw;
+  top: 81vh;
 }
 
 @keyframes scale {
@@ -588,8 +588,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 39vw;
-  top: 55vh;
+  left: 54vw;
+  top: 57vh;
 }
 
 @keyframes scale {
@@ -606,8 +606,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 67.5vw;
-  top: 11vh;
+  left: 24vw;
+  top: 69vh;
 }
 
 @keyframes scale {
@@ -624,8 +624,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 73.5vw;
-  top: 71vh;
+  left: 43.5vw;
+  top: 83vh;
 }
 
 @keyframes scale {
@@ -642,8 +642,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 22.5vw;
-  top: 51vh;
+  left: 28.5vw;
+  top: 77vh;
 }
 
 @keyframes scale {
@@ -660,8 +660,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 57vw;
-  top: 69vh;
+  left: 58.5vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -678,7 +678,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 16.5vw;
+  left: 13.5vw;
   top: 71vh;
 }
 
