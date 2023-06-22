@@ -12,6 +12,11 @@
   font-family: "Graphik";
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
+body, html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 .menu {
   width: 100vw;
   left: 0;
@@ -253,9 +258,8 @@ canvas {
 }
 .section2 {
   background-color: #E6E8E3;
-  height: 100vh;
-  justify-content: start;
-  padding-top: 30vh;
+  height: 130vh;
+  justify-content: center;
 }
 .section2:before {
   content: "";
@@ -283,6 +287,10 @@ canvas {
   z-index: 999;
 }
 
+#section-2 {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 #section-2 p {
   width: 100%;
   text-align: center;
@@ -313,7 +321,7 @@ canvas {
   margin: 14px;
   vertical-align: middle;
   position: absolute;
-  top: 40%;
+  top: 50%;
   background-color: white;
   transform: scale(0);
   white-space: nowrap;
@@ -336,8 +344,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 70.5vw;
-  top: 33vh;
+  left: 16.5vw;
+  top: 71vh;
 }
 
 @keyframes scale {
@@ -354,8 +362,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 1.5vw;
-  top: 41vh;
+  left: 60vw;
+  top: 61vh;
 }
 
 @keyframes scale {
@@ -372,8 +380,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 58.5vw;
-  top: 89vh;
+  left: 55.5vw;
+  top: 65vh;
 }
 
 @keyframes scale {
@@ -390,8 +398,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 30vw;
-  top: 7vh;
+  left: 57vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -408,8 +416,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 61.5vw;
-  top: 65vh;
+  left: 64.5vw;
+  top: 7vh;
 }
 
 @keyframes scale {
@@ -426,8 +434,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 18vw;
-  top: 95vh;
+  left: 55.5vw;
+  top: 53vh;
 }
 
 @keyframes scale {
@@ -444,8 +452,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 21vw;
-  top: 61vh;
+  left: 1.5vw;
+  top: 45vh;
 }
 
 @keyframes scale {
@@ -462,8 +470,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 46.5vw;
-  top: 19vh;
+  left: 36vw;
+  top: 85vh;
 }
 
 @keyframes scale {
@@ -480,8 +488,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 10.5vw;
-  top: 61vh;
+  left: 25.5vw;
+  top: 79vh;
 }
 
 @keyframes scale {
@@ -498,7 +506,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 54vw;
+  left: 36vw;
   top: 27vh;
 }
 
@@ -516,8 +524,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 24vw;
-  top: 27vh;
+  left: 13.5vw;
+  top: 31vh;
 }
 
 @keyframes scale {
@@ -534,8 +542,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 21vw;
-  top: 51vh;
+  left: 49.5vw;
+  top: 73vh;
 }
 
 @keyframes scale {
@@ -552,8 +560,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 21vw;
-  top: 105vh;
+  left: 70.5vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -570,8 +578,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 18vw;
-  top: 99vh;
+  left: 10.5vw;
+  top: 53vh;
 }
 
 @keyframes scale {
@@ -588,8 +596,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 9vw;
-  top: 65vh;
+  left: 36vw;
+  top: 49vh;
 }
 
 @keyframes scale {
@@ -606,8 +614,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 51vw;
-  top: 35vh;
+  left: 33vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -624,8 +632,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 9vw;
-  top: 95vh;
+  left: 24vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -642,8 +650,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 30vw;
-  top: 45vh;
+  left: 72vw;
+  top: 53vh;
 }
 
 @keyframes scale {
@@ -660,8 +668,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 31.5vw;
-  top: 47vh;
+  left: 21vw;
+  top: 81vh;
 }
 
 @keyframes scale {
@@ -678,8 +686,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 13.5vw;
-  top: 31vh;
+  left: 70.5vw;
+  top: 69vh;
 }
 
 @keyframes scale {
@@ -692,105 +700,406 @@ canvas {
 }
 #section-3 {
   position: absolute;
-  top: 50vh;
+  top: 0;
   margin-top: 40px;
-  display: none;
+  width: 100vw;
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  left: 0;
 }
 #section-3 p {
   width: 100%;
 }
 #section-3 a {
-  padding: 24px;
-  display: inline-block;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: -moz-fit-content;
   width: fit-content;
-  border-radius: 25px;
+  border-radius: 50px;
   text-decoration: none;
-  color: #000;
   margin: 14px;
+  vertical-align: middle;
+  position: absolute;
+  top: 40%;
+  background-color: #15B3C3;
   transform: scale(0);
+  white-space: nowrap;
 }
 
-#section-3 a:nth-child(1) {
-  animation-delay: 6.3s, 12s;
+.aos-animate #section-3 h3 {
+  transform: scale(0);
+  animation-delay: 6s, 12s;
+  animation-name: animation;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  text-align: center;
+  width: 100%;
 }
 
-#section-3 a:nth-child(2) {
-  animation-delay: 6.6s, 12s;
+.aos-animate #section-3 a:nth-child(1) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+  left: 19.5vw;
+  top: 103vh;
 }
 
-#section-3 a:nth-child(3) {
-  animation-delay: 6.9s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(2) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+  left: 63vw;
+  top: 59vh;
 }
 
-#section-3 a:nth-child(4) {
-  animation-delay: 7.2s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(3) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+  left: 64.5vw;
+  top: 67vh;
 }
 
-#section-3 a:nth-child(5) {
-  animation-delay: 7.5s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(4) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+  left: 43.5vw;
+  top: 59vh;
 }
 
-#section-3 a:nth-child(6) {
-  animation-delay: 7.8s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(5) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  left: 55.5vw;
+  top: 53vh;
 }
 
-#section-3 a:nth-child(7) {
-  animation-delay: 8.1s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(6) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+  left: 70.5vw;
+  top: 63vh;
 }
 
-#section-3 a:nth-child(8) {
-  animation-delay: 8.4s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(7) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+  left: 13.5vw;
+  top: 101vh;
 }
 
-#section-3 a:nth-child(9) {
-  animation-delay: 8.7s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(8) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.6s;
+  left: 40.5vw;
+  top: 81vh;
 }
 
-#section-3 a:nth-child(10) {
-  animation-delay: 9s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(9) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.8s;
+  left: 7.5vw;
+  top: 103vh;
 }
 
-#section-3 a:nth-child(11) {
-  animation-delay: 9.3s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(10) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  left: 66vw;
+  top: 83vh;
 }
 
-#section-3 a:nth-child(12) {
-  animation-delay: 9.6s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(11) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
+  left: 73.5vw;
+  top: 73vh;
 }
 
-#section-3 a:nth-child(13) {
-  animation-delay: 9.9s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(12) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.4s;
+  left: 46.5vw;
+  top: 35vh;
 }
 
-#section-3 a:nth-child(14) {
-  animation-delay: 10.2s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(13) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.6s;
+  left: 24vw;
+  top: 69vh;
 }
 
-#section-3 a:nth-child(15) {
-  animation-delay: 10.5s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(14) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.8s;
+  left: 57vw;
+  top: 105vh;
 }
 
-#section-3 a:nth-child(16) {
-  animation-delay: 10.8s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(15) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  left: 22.5vw;
+  top: 55vh;
 }
 
-#section-3 a:nth-child(17) {
-  animation-delay: 11.1s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(16) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.2s;
+  left: 21vw;
+  top: 75vh;
 }
 
-#section-3 a:nth-child(18) {
-  animation-delay: 11.4s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(17) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.4s;
+  left: 27vw;
+  top: 83vh;
 }
 
-#section-3 a:nth-child(19) {
-  animation-delay: 11.7s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(18) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.6s;
+  left: 4.5vw;
+  top: 101vh;
 }
 
-#section-3 a:nth-child(20) {
-  animation-delay: 12s, 12s;
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(19) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.8s;
+  left: 64.5vw;
+  top: 11vh;
 }
 
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.aos-animate #section-3 a:nth-child(20) {
+  animation-name: scale;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  left: 42vw;
+  top: 37vh;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @keyframes animation {
   0% {
     transform: scale(0);
