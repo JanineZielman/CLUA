@@ -159,6 +159,7 @@ figure{
 }
 
 .section{
+  height: 100%;
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -510,7 +511,7 @@ canvas{
   }
 }
 
-.aos-animate#section-5 a, .aos-animate#section-7 h3{
+.aos-animate#section-5 a, .aos-animate#section-7 h3, .aos-animate#tech-section-7 h3{
   animation-name: move-left;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -535,12 +536,15 @@ canvas{
   .aos-animate#section-5 p :nth-child(#{$i}) {
       animation-delay: #{$i * 0.2}s;
   }  
-  .aos-animate#section-7 :nth-child(#{$i}) {
+  .aos-animate#section-7 :nth-child(#{$i}) h3{
     animation-delay: #{$i * 0.2}s;
-}  
+  }  
+  .aos-animate#tech-section-7 :nth-child(#{$i}) h3 {
+    animation-delay: #{$i * 0.2}s;
+  } 
 }
 
-#section-6{
+#section-6, #tech-section-6{
   height: 100vh;
   h2{
     position: absolute;
@@ -559,7 +563,7 @@ canvas{
   }
   :nth-child(2){
     transform: scale(0);
-    padding-top: 24px;
+    padding-top: 12vh;
   }
   :nth-child(3){
     transform: scale(0);
@@ -589,7 +593,7 @@ canvas{
   }
 }
 
-.aos-animate#section-6{
+.aos-animate#section-6, .aos-animate#tech-section-6{
   :nth-child(2){
     transform: scale(0);
     animation-name: msg1;
@@ -611,18 +615,64 @@ canvas{
   }
 }
 
-#section-7{
+#section-7, #tech-section-7{
   background-color: $grey;
+  padding: 15vh 0;
   h2{
     margin-bottom: 48px;
+    margin-top: 48px;
   }
   p{
     margin: 0;
+    line-height: 1.4;
   }
-  p em{
-    display: none;
+  p em, figure{
+    display: block;
+    height: 0;
+    font-style: normal;
+    transition: height 0.4s ease;
+    overflow-y: hidden;
+  }
+  .driver{
+    position: relative;
+    max-width: 900px;
+    .wp-block-columns{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .wp-block-column{
+        width: 100%;
+        p em{
+          width: 100%;
+        }
+      }
+      figure{
+        position: absolute;
+        right: 0;
+        bottom: 314px;
+        transform: scale(1.4);
+        transform-origin: right bottom;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .driver:hover p em, .driver:hover figure{
+    // display: block;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px 0 20px 0;
+  }
+  .driver:hover{
+    h3:after{
+      transform: translateY(-50%) rotate(90deg);
+    }
   }
   h3{
+    cursor: pointer;
     text-align: left;
     width: 100%;
     max-width: 900px;
@@ -631,36 +681,30 @@ canvas{
     line-height: 1.1;
     margin-left: 50vw;
     opacity: 0;
-    a{
+    font-weight: 300;
+    padding-right: 50px;
+    display: block;
+    position: relative;
+    font-weight: 300;
+    strong{
       font-weight: 300;
-      max-width: calc(100% - 50px);
-      display: block;
-      position: relative;
-      &:after{
-        content: "";
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background-image: url(./images/arrow.svg);
-        background-size: contain;
-        right: -50px;
-        top: calc(50% - 14px);
-        transform: translateY(-50%);
-        transition: all 0.4s ease;
-      }
-      &:hover{
-        &:after{
-          right: -100px;
-        }
-      }
-      strong{
-        font-weight: 300;
-      }
+    }
+    &:after{
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/arrow-down.svg);
+      background-size: contain;
+      right: 0;
+      top: calc(50% - 14px);
+      transform: translateY(-50%);
+      transition: all 0.4s ease;
     }
   }
 }
 
-#section-8{
+#section-8, #tech-section-8{
   overflow-x: scroll;
   // overflow-y: hidden;
   display: flex;
@@ -694,7 +738,7 @@ canvas{
   }
 }
 
-.aos-animate#section-8 .signal{
+.aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal{
   animation-name: move-up;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -715,7 +759,10 @@ canvas{
 @for $i from 1 through 20 {
   .aos-animate#section-8 .signal:nth-child(#{$i}) {
       animation-delay: #{$i * 0.2}s;
-  }  
+  } 
+  .aos-animate#tech-section-8 .signal:nth-child(#{$i}) {
+    animation-delay: #{$i * 0.2}s;
+}  
 }
 
 .next{

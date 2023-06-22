@@ -150,6 +150,7 @@ figure {
 }
 
 .section {
+  height: 100%;
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -344,8 +345,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 16.5vw;
-  top: 71vh;
+  left: 1.5vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -362,8 +363,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 60vw;
-  top: 61vh;
+  left: 39vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -380,8 +381,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 55.5vw;
-  top: 65vh;
+  left: 61.5vw;
+  top: 77vh;
 }
 
 @keyframes scale {
@@ -398,8 +399,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 57vw;
-  top: 95vh;
+  left: 6vw;
+  top: 15vh;
 }
 
 @keyframes scale {
@@ -416,8 +417,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 64.5vw;
-  top: 7vh;
+  left: 34.5vw;
+  top: 23vh;
 }
 
 @keyframes scale {
@@ -434,8 +435,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 55.5vw;
-  top: 53vh;
+  left: 7.5vw;
+  top: 87vh;
 }
 
 @keyframes scale {
@@ -452,8 +453,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 1.5vw;
-  top: 45vh;
+  left: 37.5vw;
+  top: 81vh;
 }
 
 @keyframes scale {
@@ -470,8 +471,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 36vw;
-  top: 85vh;
+  left: 66vw;
+  top: 75vh;
 }
 
 @keyframes scale {
@@ -488,8 +489,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 25.5vw;
-  top: 79vh;
+  left: 19.5vw;
+  top: 21vh;
 }
 
 @keyframes scale {
@@ -506,8 +507,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 36vw;
-  top: 27vh;
+  left: 37.5vw;
+  top: 51vh;
 }
 
 @keyframes scale {
@@ -524,8 +525,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 13.5vw;
-  top: 31vh;
+  left: 57vw;
+  top: 13vh;
 }
 
 @keyframes scale {
@@ -542,8 +543,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 49.5vw;
-  top: 73vh;
+  left: 61.5vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -560,8 +561,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 70.5vw;
-  top: 19vh;
+  left: 48vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -578,8 +579,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 10.5vw;
-  top: 53vh;
+  left: 61.5vw;
+  top: 87vh;
 }
 
 @keyframes scale {
@@ -596,8 +597,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 36vw;
-  top: 49vh;
+  left: 49.5vw;
+  top: 55vh;
 }
 
 @keyframes scale {
@@ -614,8 +615,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 33vw;
-  top: 95vh;
+  left: 19.5vw;
+  top: 11vh;
 }
 
 @keyframes scale {
@@ -632,8 +633,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 24vw;
-  top: 25vh;
+  left: 70.5vw;
+  top: 75vh;
 }
 
 @keyframes scale {
@@ -651,7 +652,7 @@ canvas {
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
   left: 72vw;
-  top: 53vh;
+  top: 97vh;
 }
 
 @keyframes scale {
@@ -668,8 +669,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 21vw;
-  top: 81vh;
+  left: 46.5vw;
+  top: 13vh;
 }
 
 @keyframes scale {
@@ -686,8 +687,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 70.5vw;
-  top: 69vh;
+  left: 10.5vw;
+  top: 71vh;
 }
 
 @keyframes scale {
@@ -746,8 +747,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 19.5vw;
-  top: 103vh;
+  left: 52.5vw;
+  top: 67vh;
 }
 
 @keyframes scale {
@@ -764,8 +765,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 63vw;
-  top: 59vh;
+  left: 16.5vw;
+  top: 55vh;
 }
 
 @keyframes scale {
@@ -782,8 +783,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 64.5vw;
-  top: 67vh;
+  left: 10.5vw;
+  top: 43vh;
 }
 
 @keyframes scale {
@@ -800,8 +801,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 43.5vw;
-  top: 59vh;
+  left: 12vw;
+  top: 97vh;
 }
 
 @keyframes scale {
@@ -818,8 +819,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 55.5vw;
-  top: 53vh;
+  left: 3vw;
+  top: 93vh;
 }
 
 @keyframes scale {
@@ -836,8 +837,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 70.5vw;
-  top: 63vh;
+  left: 30vw;
+  top: 71vh;
 }
 
 @keyframes scale {
@@ -854,8 +855,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 13.5vw;
-  top: 101vh;
+  left: 60vw;
+  top: 85vh;
 }
 
 @keyframes scale {
@@ -872,8 +873,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 40.5vw;
-  top: 81vh;
+  left: 18vw;
+  top: 43vh;
 }
 
 @keyframes scale {
@@ -890,8 +891,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 7.5vw;
-  top: 103vh;
+  left: 33vw;
+  top: 69vh;
 }
 
 @keyframes scale {
@@ -908,8 +909,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 66vw;
-  top: 83vh;
+  left: 12vw;
+  top: 23vh;
 }
 
 @keyframes scale {
@@ -926,8 +927,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 73.5vw;
-  top: 73vh;
+  left: 24vw;
+  top: 45vh;
 }
 
 @keyframes scale {
@@ -944,8 +945,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 46.5vw;
-  top: 35vh;
+  left: 70.5vw;
+  top: 23vh;
 }
 
 @keyframes scale {
@@ -962,8 +963,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 24vw;
-  top: 69vh;
+  left: 52.5vw;
+  top: 67vh;
 }
 
 @keyframes scale {
@@ -980,8 +981,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 57vw;
-  top: 105vh;
+  left: 64.5vw;
+  top: 37vh;
 }
 
 @keyframes scale {
@@ -998,8 +999,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 22.5vw;
-  top: 55vh;
+  left: 55.5vw;
+  top: 41vh;
 }
 
 @keyframes scale {
@@ -1016,8 +1017,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.2s;
-  left: 21vw;
-  top: 75vh;
+  left: 36vw;
+  top: 43vh;
 }
 
 @keyframes scale {
@@ -1034,8 +1035,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.4s;
-  left: 27vw;
-  top: 83vh;
+  left: 64.5vw;
+  top: 103vh;
 }
 
 @keyframes scale {
@@ -1052,8 +1053,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.6s;
-  left: 4.5vw;
-  top: 101vh;
+  left: 61.5vw;
+  top: 53vh;
 }
 
 @keyframes scale {
@@ -1070,8 +1071,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.8s;
-  left: 64.5vw;
-  top: 11vh;
+  left: 25.5vw;
+  top: 33vh;
 }
 
 @keyframes scale {
@@ -1088,8 +1089,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
-  left: 42vw;
-  top: 37vh;
+  left: 7.5vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -1149,7 +1150,7 @@ canvas {
   width: 900px;
 }
 
-.aos-animate#section-5 a, .aos-animate#section-7 h3 {
+.aos-animate#section-5 a, .aos-animate#section-7 h3, .aos-animate#tech-section-7 h3 {
   animation-name: move-left;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -1173,7 +1174,11 @@ canvas {
   animation-delay: 0.2s;
 }
 
-.aos-animate#section-7 :nth-child(1) {
+.aos-animate#section-7 :nth-child(1) h3 {
+  animation-delay: 0.2s;
+}
+
+.aos-animate#tech-section-7 :nth-child(1) h3 {
   animation-delay: 0.2s;
 }
 
@@ -1181,7 +1186,11 @@ canvas {
   animation-delay: 0.4s;
 }
 
-.aos-animate#section-7 :nth-child(2) {
+.aos-animate#section-7 :nth-child(2) h3 {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#tech-section-7 :nth-child(2) h3 {
   animation-delay: 0.4s;
 }
 
@@ -1189,7 +1198,11 @@ canvas {
   animation-delay: 0.6s;
 }
 
-.aos-animate#section-7 :nth-child(3) {
+.aos-animate#section-7 :nth-child(3) h3 {
+  animation-delay: 0.6s;
+}
+
+.aos-animate#tech-section-7 :nth-child(3) h3 {
   animation-delay: 0.6s;
 }
 
@@ -1197,7 +1210,11 @@ canvas {
   animation-delay: 0.8s;
 }
 
-.aos-animate#section-7 :nth-child(4) {
+.aos-animate#section-7 :nth-child(4) h3 {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#tech-section-7 :nth-child(4) h3 {
   animation-delay: 0.8s;
 }
 
@@ -1205,7 +1222,11 @@ canvas {
   animation-delay: 1s;
 }
 
-.aos-animate#section-7 :nth-child(5) {
+.aos-animate#section-7 :nth-child(5) h3 {
+  animation-delay: 1s;
+}
+
+.aos-animate#tech-section-7 :nth-child(5) h3 {
   animation-delay: 1s;
 }
 
@@ -1213,7 +1234,11 @@ canvas {
   animation-delay: 1.2s;
 }
 
-.aos-animate#section-7 :nth-child(6) {
+.aos-animate#section-7 :nth-child(6) h3 {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#tech-section-7 :nth-child(6) h3 {
   animation-delay: 1.2s;
 }
 
@@ -1221,7 +1246,11 @@ canvas {
   animation-delay: 1.4s;
 }
 
-.aos-animate#section-7 :nth-child(7) {
+.aos-animate#section-7 :nth-child(7) h3 {
+  animation-delay: 1.4s;
+}
+
+.aos-animate#tech-section-7 :nth-child(7) h3 {
   animation-delay: 1.4s;
 }
 
@@ -1229,7 +1258,11 @@ canvas {
   animation-delay: 1.6s;
 }
 
-.aos-animate#section-7 :nth-child(8) {
+.aos-animate#section-7 :nth-child(8) h3 {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#tech-section-7 :nth-child(8) h3 {
   animation-delay: 1.6s;
 }
 
@@ -1237,7 +1270,11 @@ canvas {
   animation-delay: 1.8s;
 }
 
-.aos-animate#section-7 :nth-child(9) {
+.aos-animate#section-7 :nth-child(9) h3 {
+  animation-delay: 1.8s;
+}
+
+.aos-animate#tech-section-7 :nth-child(9) h3 {
   animation-delay: 1.8s;
 }
 
@@ -1245,7 +1282,11 @@ canvas {
   animation-delay: 2s;
 }
 
-.aos-animate#section-7 :nth-child(10) {
+.aos-animate#section-7 :nth-child(10) h3 {
+  animation-delay: 2s;
+}
+
+.aos-animate#tech-section-7 :nth-child(10) h3 {
   animation-delay: 2s;
 }
 
@@ -1253,7 +1294,11 @@ canvas {
   animation-delay: 2.2s;
 }
 
-.aos-animate#section-7 :nth-child(11) {
+.aos-animate#section-7 :nth-child(11) h3 {
+  animation-delay: 2.2s;
+}
+
+.aos-animate#tech-section-7 :nth-child(11) h3 {
   animation-delay: 2.2s;
 }
 
@@ -1261,7 +1306,11 @@ canvas {
   animation-delay: 2.4s;
 }
 
-.aos-animate#section-7 :nth-child(12) {
+.aos-animate#section-7 :nth-child(12) h3 {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#tech-section-7 :nth-child(12) h3 {
   animation-delay: 2.4s;
 }
 
@@ -1269,7 +1318,11 @@ canvas {
   animation-delay: 2.6s;
 }
 
-.aos-animate#section-7 :nth-child(13) {
+.aos-animate#section-7 :nth-child(13) h3 {
+  animation-delay: 2.6s;
+}
+
+.aos-animate#tech-section-7 :nth-child(13) h3 {
   animation-delay: 2.6s;
 }
 
@@ -1277,7 +1330,11 @@ canvas {
   animation-delay: 2.8s;
 }
 
-.aos-animate#section-7 :nth-child(14) {
+.aos-animate#section-7 :nth-child(14) h3 {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#tech-section-7 :nth-child(14) h3 {
   animation-delay: 2.8s;
 }
 
@@ -1285,7 +1342,11 @@ canvas {
   animation-delay: 3s;
 }
 
-.aos-animate#section-7 :nth-child(15) {
+.aos-animate#section-7 :nth-child(15) h3 {
+  animation-delay: 3s;
+}
+
+.aos-animate#tech-section-7 :nth-child(15) h3 {
   animation-delay: 3s;
 }
 
@@ -1293,7 +1354,11 @@ canvas {
   animation-delay: 3.2s;
 }
 
-.aos-animate#section-7 :nth-child(16) {
+.aos-animate#section-7 :nth-child(16) h3 {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#tech-section-7 :nth-child(16) h3 {
   animation-delay: 3.2s;
 }
 
@@ -1301,7 +1366,11 @@ canvas {
   animation-delay: 3.4s;
 }
 
-.aos-animate#section-7 :nth-child(17) {
+.aos-animate#section-7 :nth-child(17) h3 {
+  animation-delay: 3.4s;
+}
+
+.aos-animate#tech-section-7 :nth-child(17) h3 {
   animation-delay: 3.4s;
 }
 
@@ -1309,7 +1378,11 @@ canvas {
   animation-delay: 3.6s;
 }
 
-.aos-animate#section-7 :nth-child(18) {
+.aos-animate#section-7 :nth-child(18) h3 {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#tech-section-7 :nth-child(18) h3 {
   animation-delay: 3.6s;
 }
 
@@ -1317,7 +1390,11 @@ canvas {
   animation-delay: 3.8s;
 }
 
-.aos-animate#section-7 :nth-child(19) {
+.aos-animate#section-7 :nth-child(19) h3 {
+  animation-delay: 3.8s;
+}
+
+.aos-animate#tech-section-7 :nth-child(19) h3 {
   animation-delay: 3.8s;
 }
 
@@ -1325,21 +1402,25 @@ canvas {
   animation-delay: 4s;
 }
 
-.aos-animate#section-7 :nth-child(20) {
+.aos-animate#section-7 :nth-child(20) h3 {
   animation-delay: 4s;
 }
 
-#section-6 {
+.aos-animate#tech-section-7 :nth-child(20) h3 {
+  animation-delay: 4s;
+}
+
+#section-6, #tech-section-6 {
   height: 100vh;
 }
-#section-6 h2 {
+#section-6 h2, #tech-section-6 h2 {
   position: absolute;
   top: 10vh;
   width: 100%;
   max-width: 900px;
   text-align: left;
 }
-#section-6 p {
+#section-6 p, #tech-section-6 p {
   width: -moz-fit-content;
   width: fit-content;
   max-width: 900px;
@@ -1348,14 +1429,14 @@ canvas {
   padding-bottom: 24px;
   border-bottom: 1px solid #000;
 }
-#section-6 :nth-child(2) {
+#section-6 :nth-child(2), #tech-section-6 :nth-child(2) {
   transform: scale(0);
-  padding-top: 24px;
+  padding-top: 12vh;
 }
-#section-6 :nth-child(3) {
+#section-6 :nth-child(3), #tech-section-6 :nth-child(3) {
   transform: scale(0);
 }
-#section-6 h4 {
+#section-6 h4, #tech-section-6 h4 {
   transform: scale(0);
   position: fixed;
   right: 2vw;
@@ -1363,7 +1444,7 @@ canvas {
   width: -moz-fit-content;
   width: fit-content;
 }
-#section-6 h4 a {
+#section-6 h4 a, #tech-section-6 h4 a {
   text-decoration: none;
   color: #000;
   width: 200px;
@@ -1375,12 +1456,12 @@ canvas {
   transition: all 0.4s ease;
   background-color: #15B3C3;
 }
-#section-6 h4 a:hover {
+#section-6 h4 a:hover, #tech-section-6 h4 a:hover {
   transform: scale(3);
   font-size: 8px;
 }
 
-.aos-animate#section-6 :nth-child(2) {
+.aos-animate#section-6 :nth-child(2), .aos-animate#tech-section-6 :nth-child(2) {
   transform: scale(0);
   animation-name: msg1;
   animation-iteration-count: 1;
@@ -1388,7 +1469,7 @@ canvas {
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-.aos-animate#section-6 :nth-child(3) {
+.aos-animate#section-6 :nth-child(3), .aos-animate#tech-section-6 :nth-child(3) {
   transform: scale(0);
   animation-name: msg1;
   animation-iteration-count: 1;
@@ -1396,23 +1477,67 @@ canvas {
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-.aos-animate#section-6 h4 {
+.aos-animate#section-6 h4, .aos-animate#tech-section-6 h4 {
   transform: scale(1);
 }
 
-#section-7 {
+#section-7, #tech-section-7 {
   background-color: #E6E8E3;
+  padding: 15vh 0;
 }
-#section-7 h2 {
+#section-7 h2, #tech-section-7 h2 {
   margin-bottom: 48px;
+  margin-top: 48px;
 }
-#section-7 p {
+#section-7 p, #tech-section-7 p {
   margin: 0;
+  line-height: 1.4;
 }
-#section-7 p em {
-  display: none;
+#section-7 p em, #section-7 figure, #tech-section-7 p em, #tech-section-7 figure {
+  display: block;
+  height: 0;
+  font-style: normal;
+  transition: height 0.4s ease;
+  overflow-y: hidden;
 }
-#section-7 h3 {
+#section-7 .driver, #tech-section-7 .driver {
+  position: relative;
+  max-width: 900px;
+}
+#section-7 .driver .wp-block-columns, #tech-section-7 .driver .wp-block-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#section-7 .driver .wp-block-columns .wp-block-column, #tech-section-7 .driver .wp-block-columns .wp-block-column {
+  width: 100%;
+}
+#section-7 .driver .wp-block-columns .wp-block-column p em, #tech-section-7 .driver .wp-block-columns .wp-block-column p em {
+  width: 100%;
+}
+#section-7 .driver .wp-block-columns figure, #tech-section-7 .driver .wp-block-columns figure {
+  position: absolute;
+  right: 0;
+  bottom: 314px;
+  transform: scale(1.4);
+  transform-origin: right bottom;
+}
+#section-7 .driver .wp-block-columns figure img, #tech-section-7 .driver .wp-block-columns figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#section-7 .driver:hover p em, #section-7 .driver:hover figure, #tech-section-7 .driver:hover p em, #tech-section-7 .driver:hover figure {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px 0 20px 0;
+}
+#section-7 .driver:hover h3:after, #tech-section-7 .driver:hover h3:after {
+  transform: translateY(-50%) rotate(90deg);
+}
+#section-7 h3, #tech-section-7 h3 {
+  cursor: pointer;
   text-align: left;
   width: 100%;
   max-width: 900px;
@@ -1421,33 +1546,29 @@ canvas {
   line-height: 1.1;
   margin-left: 50vw;
   opacity: 0;
-}
-#section-7 h3 a {
   font-weight: 300;
-  max-width: calc(100% - 50px);
+  padding-right: 50px;
   display: block;
   position: relative;
+  font-weight: 300;
 }
-#section-7 h3 a:after {
+#section-7 h3 strong, #tech-section-7 h3 strong {
+  font-weight: 300;
+}
+#section-7 h3:after, #tech-section-7 h3:after {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background-image: url(./images/arrow.svg);
+  width: 40px;
+  height: 40px;
+  background-image: url(./images/arrow-down.svg);
   background-size: contain;
-  right: -50px;
+  right: 0;
   top: calc(50% - 14px);
   transform: translateY(-50%);
   transition: all 0.4s ease;
 }
-#section-7 h3 a:hover:after {
-  right: -100px;
-}
-#section-7 h3 a strong {
-  font-weight: 300;
-}
 
-#section-8 {
+#section-8, #tech-section-8 {
   overflow-x: scroll;
   display: flex;
   flex-direction: row;
@@ -1455,13 +1576,13 @@ canvas {
   align-items: start;
   -webkit-overflow-scrolling: touch;
 }
-#section-8 h2 {
+#section-8 h2, #tech-section-8 h2 {
   position: sticky;
   left: 40%;
   top: 50px;
   white-space: nowrap;
 }
-#section-8 .signal {
+#section-8 .signal, #tech-section-8 .signal {
   width: -moz-fit-content;
   width: fit-content;
   margin: 24px;
@@ -1471,16 +1592,16 @@ canvas {
   align-items: center;
   margin-top: 500px;
 }
-#section-8 .signal div:nth-child(1) {
+#section-8 .signal div:nth-child(1), #tech-section-8 .signal div:nth-child(1) {
   width: 100%;
   max-width: 500px;
 }
-#section-8 .signal div:nth-child(2) {
+#section-8 .signal div:nth-child(2), #tech-section-8 .signal div:nth-child(2) {
   width: auto;
   max-width: 500px;
 }
 
-.aos-animate#section-8 .signal {
+.aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal {
   animation-name: move-up;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -1500,7 +1621,15 @@ canvas {
   animation-delay: 0.2s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
 .aos-animate#section-8 .signal:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(2) {
   animation-delay: 0.4s;
 }
 
@@ -1508,7 +1637,15 @@ canvas {
   animation-delay: 0.6s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
 .aos-animate#section-8 .signal:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(4) {
   animation-delay: 0.8s;
 }
 
@@ -1516,7 +1653,15 @@ canvas {
   animation-delay: 1s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(5) {
+  animation-delay: 1s;
+}
+
 .aos-animate#section-8 .signal:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(6) {
   animation-delay: 1.2s;
 }
 
@@ -1524,7 +1669,15 @@ canvas {
   animation-delay: 1.4s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(7) {
+  animation-delay: 1.4s;
+}
+
 .aos-animate#section-8 .signal:nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(8) {
   animation-delay: 1.6s;
 }
 
@@ -1532,7 +1685,15 @@ canvas {
   animation-delay: 1.8s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(9) {
+  animation-delay: 1.8s;
+}
+
 .aos-animate#section-8 .signal:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(10) {
   animation-delay: 2s;
 }
 
@@ -1540,7 +1701,15 @@ canvas {
   animation-delay: 2.2s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(11) {
+  animation-delay: 2.2s;
+}
+
 .aos-animate#section-8 .signal:nth-child(12) {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(12) {
   animation-delay: 2.4s;
 }
 
@@ -1548,7 +1717,15 @@ canvas {
   animation-delay: 2.6s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(13) {
+  animation-delay: 2.6s;
+}
+
 .aos-animate#section-8 .signal:nth-child(14) {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(14) {
   animation-delay: 2.8s;
 }
 
@@ -1556,7 +1733,15 @@ canvas {
   animation-delay: 3s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(15) {
+  animation-delay: 3s;
+}
+
 .aos-animate#section-8 .signal:nth-child(16) {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(16) {
   animation-delay: 3.2s;
 }
 
@@ -1564,7 +1749,15 @@ canvas {
   animation-delay: 3.4s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(17) {
+  animation-delay: 3.4s;
+}
+
 .aos-animate#section-8 .signal:nth-child(18) {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(18) {
   animation-delay: 3.6s;
 }
 
@@ -1572,7 +1765,15 @@ canvas {
   animation-delay: 3.8s;
 }
 
+.aos-animate#tech-section-8 .signal:nth-child(19) {
+  animation-delay: 3.8s;
+}
+
 .aos-animate#section-8 .signal:nth-child(20) {
+  animation-delay: 4s;
+}
+
+.aos-animate#tech-section-8 .signal:nth-child(20) {
   animation-delay: 4s;
 }
 
