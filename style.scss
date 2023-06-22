@@ -118,6 +118,7 @@ figure{
   }
 }
 
+
 .signal{
   border: 1px solid $black;
   text-align: left;
@@ -128,7 +129,7 @@ figure{
   align-items: stretch;
   width: 90vw;
   max-width: 1200px;
-  margin: 24px auto 48px auto;
+  margin: 200px auto 48px auto;
   div{
     &:nth-child(1){
       width: 49%;
@@ -477,6 +478,9 @@ canvas{
 #section-4{
   background-color: white;
   color: $black;
+  .signal{
+    opacity: 0;
+  }
 }
 
 
@@ -661,7 +665,6 @@ canvas{
     }
   }
   .driver:hover p em, .driver:hover figure{
-    // display: block;
     height: 300px;
     overflow-y: scroll;
     padding: 10px 0 20px 0;
@@ -737,6 +740,28 @@ canvas{
     }
   }
 }
+
+.aos-animate#section-4 .signal{
+  animation-name: move-up2;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes move-up2 {
+  0% {
+    margin-top: 200px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 14px;
+    opacity: 1;
+  }
+}
+
+
 
 .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal{
   animation-name: move-up;
