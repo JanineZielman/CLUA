@@ -20,7 +20,8 @@ $white: #fff;
 $grey: #E6E8E3;
 $black: #000;
 
-body,html{
+
+body{
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -175,10 +176,10 @@ figure{
 
 .sticky-element {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
