@@ -104,6 +104,10 @@ figure {
   margin: 0;
 }
 
+figcaption {
+  text-align: center;
+}
+
 .wp-block-image img {
   width: 100%;
   height: auto;
@@ -119,6 +123,7 @@ figure {
   align-items: stretch;
   width: -moz-fit-content;
   width: fit-content;
+  background-color: #fff;
 }
 .signal div:nth-child(1) {
   width: 100%;
@@ -264,18 +269,6 @@ canvas {
   z-index: 999;
   transform: scale(-1);
 }
-.section2:after {
-  content: "";
-  background: url(./images/hero-wave.svg);
-  width: 100%;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  bottom: -5px;
-  z-index: 999;
-}
 
 #section-2 {
   max-width: 100vw;
@@ -334,8 +327,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 3vw;
-  top: 23vh;
+  left: 43.5vw;
+  top: 21vh;
 }
 
 @keyframes scale {
@@ -352,7 +345,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 25.5vw;
+  left: 18vw;
   top: 31vh;
 }
 
@@ -370,8 +363,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 69vw;
-  top: 61vh;
+  left: 9vw;
+  top: 11vh;
 }
 
 @keyframes scale {
@@ -388,8 +381,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 37.5vw;
-  top: 81vh;
+  left: 66vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -406,8 +399,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 7.5vw;
-  top: 65vh;
+  left: 31.5vw;
+  top: 77vh;
 }
 
 @keyframes scale {
@@ -424,8 +417,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 66vw;
-  top: 33vh;
+  left: 61.5vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -443,7 +436,7 @@ canvas {
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
   left: 9vw;
-  top: 73vh;
+  top: 71vh;
 }
 
 @keyframes scale {
@@ -478,8 +471,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 19.5vw;
-  top: 17vh;
+  left: 64.5vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -496,8 +489,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 43.5vw;
-  top: 101vh;
+  left: 45vw;
+  top: 59vh;
 }
 
 @keyframes scale {
@@ -514,8 +507,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 27vw;
-  top: 79vh;
+  left: 69vw;
+  top: 83vh;
 }
 
 @keyframes scale {
@@ -532,7 +525,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 57vw;
+  left: 69vw;
   top: 57vh;
 }
 
@@ -550,8 +543,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 61.5vw;
-  top: 13vh;
+  left: 54vw;
+  top: 91vh;
 }
 
 @keyframes scale {
@@ -568,8 +561,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 16.5vw;
-  top: 69vh;
+  left: 31.5vw;
+  top: 81vh;
 }
 
 @keyframes scale {
@@ -586,8 +579,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 45vw;
-  top: 89vh;
+  left: 42vw;
+  top: 59vh;
 }
 
 @keyframes scale {
@@ -604,8 +597,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 54vw;
-  top: 75vh;
+  left: 19.5vw;
+  top: 59vh;
 }
 
 @keyframes scale {
@@ -622,8 +615,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 58.5vw;
-  top: 15vh;
+  left: 66vw;
+  top: 27vh;
 }
 
 @keyframes scale {
@@ -640,8 +633,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 21vw;
-  top: 55vh;
+  left: 61.5vw;
+  top: 99vh;
 }
 
 @keyframes scale {
@@ -658,8 +651,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 46.5vw;
-  top: 69vh;
+  left: 40.5vw;
+  top: 21vh;
 }
 
 @keyframes scale {
@@ -676,7 +669,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 49.5vw;
+  left: 12vw;
   top: 13vh;
 }
 
@@ -736,8 +729,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 6vw;
-  top: 85vh;
+  left: 40.5vw;
+  top: 35vh;
 }
 
 @keyframes scale {
@@ -754,8 +747,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 46.5vw;
-  top: 31vh;
+  left: 15vw;
+  top: 45vh;
 }
 
 @keyframes scale {
@@ -772,8 +765,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 21vw;
-  top: 17vh;
+  left: 48vw;
+  top: 79vh;
 }
 
 @keyframes scale {
@@ -790,8 +783,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 19.5vw;
-  top: 47vh;
+  left: 24vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -808,8 +801,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 60vw;
-  top: 7vh;
+  left: 45vw;
+  top: 87vh;
 }
 
 @keyframes scale {
@@ -826,8 +819,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 45vw;
-  top: 29vh;
+  left: 10.5vw;
+  top: 17vh;
 }
 
 @keyframes scale {
@@ -844,8 +837,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 4.5vw;
-  top: 65vh;
+  left: 75vw;
+  top: 75vh;
 }
 
 @keyframes scale {
@@ -862,7 +855,7 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 30vw;
+  left: 28.5vw;
   top: 39vh;
 }
 
@@ -880,8 +873,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 18vw;
-  top: 59vh;
+  left: 70.5vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -898,8 +891,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 28.5vw;
-  top: 29vh;
+  left: 37.5vw;
+  top: 83vh;
 }
 
 @keyframes scale {
@@ -916,8 +909,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 73.5vw;
-  top: 19vh;
+  left: 34.5vw;
+  top: 37vh;
 }
 
 @keyframes scale {
@@ -934,8 +927,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 57vw;
-  top: 89vh;
+  left: 7.5vw;
+  top: 25vh;
 }
 
 @keyframes scale {
@@ -952,8 +945,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 24vw;
-  top: 61vh;
+  left: 63vw;
+  top: 27vh;
 }
 
 @keyframes scale {
@@ -970,8 +963,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 51vw;
-  top: 49vh;
+  left: 52.5vw;
+  top: 105vh;
 }
 
 @keyframes scale {
@@ -988,8 +981,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 75vw;
-  top: 41vh;
+  left: 51vw;
+  top: 13vh;
 }
 
 @keyframes scale {
@@ -1006,8 +999,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.2s;
-  left: 55.5vw;
-  top: 89vh;
+  left: 46.5vw;
+  top: 95vh;
 }
 
 @keyframes scale {
@@ -1024,8 +1017,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.4s;
-  left: 31.5vw;
-  top: 73vh;
+  left: 16.5vw;
+  top: 89vh;
 }
 
 @keyframes scale {
@@ -1042,8 +1035,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.6s;
-  left: 45vw;
-  top: 39vh;
+  left: 9vw;
+  top: 81vh;
 }
 
 @keyframes scale {
@@ -1060,8 +1053,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.8s;
-  left: 45vw;
-  top: 27vh;
+  left: 64.5vw;
+  top: 19vh;
 }
 
 @keyframes scale {
@@ -1078,8 +1071,8 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
-  left: 60vw;
-  top: 103vh;
+  left: 1.5vw;
+  top: 97vh;
 }
 
 @keyframes scale {
@@ -1107,7 +1100,9 @@ canvas {
   }
 }
 #section-4 {
-  background-color: white;
+  background: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em);
+  background-size: 3em 3em;
   color: #000;
 }
 #section-4 .signal {
@@ -1127,11 +1122,12 @@ canvas {
 #section-5 p {
   width: 100%;
   max-width: 900px;
+  margin: 0;
 }
 #section-5 a {
   text-decoration: none;
   color: #000;
-  margin: 24px 0;
+  margin: 10px 0;
   display: block;
   font-size: 48px;
   text-align: left;
@@ -1484,6 +1480,9 @@ canvas {
 
 #section-6, #tech-section-6, #philanthropy-section-6 {
   height: 100vh;
+  background: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em);
+  background-size: 3em 3em;
 }
 #section-6 h2, #tech-section-6 h2, #philanthropy-section-6 h2 {
   position: absolute;
@@ -1640,21 +1639,24 @@ canvas {
   transition: all 0.4s ease;
 }
 
-#section-8, #tech-section-8 {
+#section-8, #tech-section-8, #philanthropy-section-8 {
   overflow-x: scroll;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: start;
   -webkit-overflow-scrolling: touch;
+  background: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0.1em, transparent 0.1em);
+  background-size: 3em 3em;
 }
-#section-8 h2, #tech-section-8 h2 {
+#section-8 h2, #tech-section-8 h2, #philanthropy-section-8 h2 {
   position: sticky;
   left: 40%;
   top: 50px;
   white-space: nowrap;
 }
-#section-8 .signal, #tech-section-8 .signal {
+#section-8 .signal, #tech-section-8 .signal, #philanthropy-section-8 .signal {
   width: -moz-fit-content;
   width: fit-content;
   margin: 24px;
@@ -1664,11 +1666,11 @@ canvas {
   align-items: center;
   margin-top: 500px;
 }
-#section-8 .signal div:nth-child(1), #tech-section-8 .signal div:nth-child(1) {
+#section-8 .signal div:nth-child(1), #tech-section-8 .signal div:nth-child(1), #philanthropy-section-8 .signal div:nth-child(1) {
   width: 100%;
   max-width: 500px;
 }
-#section-8 .signal div:nth-child(2), #tech-section-8 .signal div:nth-child(2) {
+#section-8 .signal div:nth-child(2), #tech-section-8 .signal div:nth-child(2), #philanthropy-section-8 .signal div:nth-child(2) {
   width: auto;
   max-width: 500px;
 }
@@ -1691,7 +1693,7 @@ canvas {
     opacity: 1;
   }
 }
-.aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal {
+.aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal {
   animation-name: move-up;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -1715,11 +1717,19 @@ canvas {
   animation-delay: 0.2s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
 .aos-animate#section-8 .signal:nth-child(2) {
   animation-delay: 0.4s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(2) {
   animation-delay: 0.4s;
 }
 
@@ -1731,11 +1741,19 @@ canvas {
   animation-delay: 0.6s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
 .aos-animate#section-8 .signal:nth-child(4) {
   animation-delay: 0.8s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(4) {
   animation-delay: 0.8s;
 }
 
@@ -1747,11 +1765,19 @@ canvas {
   animation-delay: 1s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(5) {
+  animation-delay: 1s;
+}
+
 .aos-animate#section-8 .signal:nth-child(6) {
   animation-delay: 1.2s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(6) {
   animation-delay: 1.2s;
 }
 
@@ -1763,11 +1789,19 @@ canvas {
   animation-delay: 1.4s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(7) {
+  animation-delay: 1.4s;
+}
+
 .aos-animate#section-8 .signal:nth-child(8) {
   animation-delay: 1.6s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(8) {
   animation-delay: 1.6s;
 }
 
@@ -1779,11 +1813,19 @@ canvas {
   animation-delay: 1.8s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(9) {
+  animation-delay: 1.8s;
+}
+
 .aos-animate#section-8 .signal:nth-child(10) {
   animation-delay: 2s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(10) {
   animation-delay: 2s;
 }
 
@@ -1795,11 +1837,19 @@ canvas {
   animation-delay: 2.2s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(11) {
+  animation-delay: 2.2s;
+}
+
 .aos-animate#section-8 .signal:nth-child(12) {
   animation-delay: 2.4s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(12) {
+  animation-delay: 2.4s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(12) {
   animation-delay: 2.4s;
 }
 
@@ -1811,11 +1861,19 @@ canvas {
   animation-delay: 2.6s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(13) {
+  animation-delay: 2.6s;
+}
+
 .aos-animate#section-8 .signal:nth-child(14) {
   animation-delay: 2.8s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(14) {
+  animation-delay: 2.8s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(14) {
   animation-delay: 2.8s;
 }
 
@@ -1827,11 +1885,19 @@ canvas {
   animation-delay: 3s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(15) {
+  animation-delay: 3s;
+}
+
 .aos-animate#section-8 .signal:nth-child(16) {
   animation-delay: 3.2s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(16) {
+  animation-delay: 3.2s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(16) {
   animation-delay: 3.2s;
 }
 
@@ -1843,11 +1909,19 @@ canvas {
   animation-delay: 3.4s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(17) {
+  animation-delay: 3.4s;
+}
+
 .aos-animate#section-8 .signal:nth-child(18) {
   animation-delay: 3.6s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(18) {
+  animation-delay: 3.6s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(18) {
   animation-delay: 3.6s;
 }
 
@@ -1859,11 +1933,19 @@ canvas {
   animation-delay: 3.8s;
 }
 
+.aos-animate#philanthropy-section-8 .signal:nth-child(19) {
+  animation-delay: 3.8s;
+}
+
 .aos-animate#section-8 .signal:nth-child(20) {
   animation-delay: 4s;
 }
 
 .aos-animate#tech-section-8 .signal:nth-child(20) {
+  animation-delay: 4s;
+}
+
+.aos-animate#philanthropy-section-8 .signal:nth-child(20) {
   animation-delay: 4s;
 }
 
