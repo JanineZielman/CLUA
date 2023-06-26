@@ -118,7 +118,6 @@ figure{
   }
 }
 
-
 .signal{
   border: 1px solid $black;
   text-align: left;
@@ -127,25 +126,16 @@ figure{
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  width: 90vw;
-  max-width: 1200px;
-  margin: 200px auto 48px auto;
+  width: fit-content;
+  div:nth-child(1){
+    width: 100%;
+    max-width: 500px;
+  }
+  div:nth-child(2){
+    width: auto;
+    max-width: 500px;
+  }
   div{
-    &:nth-child(1){
-      width: 49%;
-      figure{
-        height: 100%;
-        object-fit: cover;
-        img{
-          height: 100%;
-          object-fit: cover;
-          object-position: center;
-        }
-      }
-    }
-    &:nth-child(2){
-      width: 49%;
-    }
     p{
       // display: none;
       margin-top: 14px;
@@ -515,7 +505,7 @@ canvas{
   }
 }
 
-.aos-animate#section-5 a, .aos-animate#section-7 h3, .aos-animate#tech-section-7 h3{
+.aos-animate#section-5 a, .aos-animate#section-7 h3, .aos-animate#tech-section-7 h3, .aos-animate#philanthropy-section-7 h3{
   animation-name: move-left;
   animation-iteration-count: 1;
   animation-duration: 1s;
@@ -546,9 +536,12 @@ canvas{
   .aos-animate#tech-section-7 :nth-child(#{$i}) h3 {
     animation-delay: #{$i * 0.2}s;
   } 
+  .aos-animate#philanthropy-section-7 :nth-child(#{$i}) h3 {
+    animation-delay: #{$i * 0.2}s;
+  } 
 }
 
-#section-6, #tech-section-6{
+#section-6, #tech-section-6, #philanthropy-section-6{
   height: 100vh;
   h2{
     position: absolute;
@@ -597,7 +590,7 @@ canvas{
   }
 }
 
-.aos-animate#section-6, .aos-animate#tech-section-6{
+.aos-animate#section-6, .aos-animate#tech-section-6, .aos-animate#philanthropy-section-6{
   :nth-child(2){
     transform: scale(0);
     animation-name: msg1;
@@ -619,7 +612,7 @@ canvas{
   }
 }
 
-#section-7, #tech-section-7{
+#section-7, #tech-section-7, #philanthropy-section-7{
   background-color: $grey;
   padding: 15vh 0;
   h2{
