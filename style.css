@@ -259,6 +259,7 @@ canvas {
   background-color: #E6E8E3;
   height: 130vh;
   justify-content: center;
+  padding-top: 10vh;
 }
 .section2:before {
   content: "";
@@ -285,16 +286,19 @@ canvas {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #E6E8E3;
+  border-radius: 25px;
 }
 #section-2 h2 {
   text-align: center;
+  background-color: #E6E8E3;
 }
 #section-2 p:nth-child(2) {
   width: 900px;
   display: block;
   margin: auto;
-  margin-top: 24px;
-  margin-bottom: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 #section-2 a {
   padding: 10px 24px;
@@ -309,9 +313,11 @@ canvas {
   vertical-align: middle;
   position: absolute;
   top: 50%;
+  left: 50%;
   background-color: white;
-  transform: scale(0);
+  transform: scale(0) translate(-50%, -50%);
   white-space: nowrap;
+  z-index: -1;
 }
 
 .aos-animate #section-2 h3 {
@@ -331,16 +337,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
-  left: 42vw;
-  top: 35vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(2) {
@@ -349,16 +353,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
-  left: 3vw;
-  top: 47vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(3) {
@@ -367,16 +369,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
-  left: 70.5vw;
-  top: 11vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(4) {
@@ -385,16 +385,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  left: 64.5vw;
-  top: 57vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(5) {
@@ -403,16 +401,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  left: 48vw;
-  top: 43vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(6) {
@@ -421,16 +417,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 21vw;
-  top: 75vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(7) {
@@ -439,16 +433,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 73.5vw;
-  top: 21vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(8) {
@@ -457,16 +449,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 46.5vw;
-  top: 77vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(9) {
@@ -475,16 +465,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 64.5vw;
-  top: 105vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(10) {
@@ -493,16 +481,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 7.5vw;
-  top: 39vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(11) {
@@ -511,16 +497,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 69vw;
-  top: 29vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(12) {
@@ -529,16 +513,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 30vw;
-  top: 9vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(13) {
@@ -547,16 +529,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 37.5vw;
-  top: 93vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(14) {
@@ -565,16 +545,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 1.5vw;
-  top: 25vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(15) {
@@ -583,16 +561,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 58.5vw;
-  top: 47vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(16) {
@@ -601,16 +577,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 24vw;
-  top: 39vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(17) {
@@ -619,16 +593,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 34.5vw;
-  top: 47vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(18) {
@@ -637,16 +609,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 12vw;
-  top: 23vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(19) {
@@ -655,16 +625,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 70.5vw;
-  top: 53vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-2 a:nth-child(20) {
@@ -673,18 +641,106 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 42vw;
-  top: 63vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0) rotate(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
+.aos-animate #section-2 a:nth-child(1) {
+  top: 25vh;
+  left: 10vw;
+}
+
+.aos-animate #section-2 a:nth-child(2) {
+  top: 80vh;
+  left: 20vw;
+}
+
+.aos-animate #section-2 a:nth-child(3) {
+  left: 60vw;
+  top: 40vh;
+}
+
+.aos-animate #section-2 a:nth-child(4) {
+  top: 100vh;
+  left: 80vw;
+}
+
+.aos-animate #section-2 a:nth-child(5) {
+  top: 60vh;
+  left: 20vw;
+}
+
+.aos-animate #section-2 a:nth-child(6) {
+  left: 10vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(7) {
+  left: 80vw;
+  top: 80vh;
+}
+
+.aos-animate #section-2 a:nth-child(8) {
+  left: 80vw;
+  top: 50vh;
+}
+
+.aos-animate #section-2 a:nth-child(9) {
+  left: 50vw;
+  top: 100vh;
+}
+
+.aos-animate #section-2 a:nth-child(10) {
+  left: 40vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(11) {
+  left: 50vw;
+  top: 90vh;
+}
+
+.aos-animate #section-2 a:nth-child(12) {
+  left: 30vw;
+  top: 100vh;
+}
+
+.aos-animate #section-2 a:nth-child(13) {
+  left: 20vw;
+  top: 110vh;
+}
+
+.aos-animate #section-2 a:nth-child(14) {
+  left: 80vw;
+  top: 110vh;
+}
+
+.aos-animate #section-2 a:nth-child(15) {
+  left: 90vw;
+  top: 50vh;
+}
+
+.aos-animate #section-2 a:nth-child(16) {
+  left: 70vw;
+  top: 40vh;
+}
+
+.aos-animate #section-2 a:nth-child(17) {
+  left: 60vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(18) {
+  left: 90vw;
+  top: 20vh;
+}
+
 #section-3 {
   position: absolute;
   top: 0;
@@ -711,8 +767,9 @@ canvas {
   vertical-align: middle;
   position: absolute;
   top: 40%;
+  left: 50%;
   background-color: #15B3C3;
-  transform: scale(0);
+  transform: scale(0) translate(-50%, -50%);
   white-space: nowrap;
 }
 
@@ -733,16 +790,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
-  left: 55.5vw;
-  top: 67vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(2) {
@@ -751,16 +806,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.4s;
-  left: 1.5vw;
-  top: 67vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(3) {
@@ -769,16 +822,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.6s;
-  left: 1.5vw;
-  top: 105vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(4) {
@@ -787,16 +838,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
-  left: 19.5vw;
-  top: 77vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(5) {
@@ -805,16 +854,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
-  left: 73.5vw;
-  top: 53vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(6) {
@@ -823,16 +870,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.2s;
-  left: 31.5vw;
-  top: 39vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(7) {
@@ -841,16 +886,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  left: 10.5vw;
-  top: 69vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(8) {
@@ -859,16 +902,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
-  left: 7.5vw;
-  top: 71vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(9) {
@@ -877,16 +918,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.8s;
-  left: 28.5vw;
-  top: 101vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(10) {
@@ -895,16 +934,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
-  left: 66vw;
-  top: 31vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(11) {
@@ -913,16 +950,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
-  left: 21vw;
-  top: 53vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(12) {
@@ -931,16 +966,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
-  left: 25.5vw;
-  top: 83vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(13) {
@@ -949,16 +982,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.6s;
-  left: 21vw;
-  top: 97vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(14) {
@@ -967,16 +998,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3.8s;
-  left: 58.5vw;
-  top: 53vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(15) {
@@ -985,16 +1014,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
-  left: 16.5vw;
-  top: 71vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(16) {
@@ -1003,16 +1030,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.2s;
-  left: 34.5vw;
-  top: 7vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(17) {
@@ -1021,16 +1046,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.4s;
-  left: 39vw;
-  top: 31vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(18) {
@@ -1039,16 +1062,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.6s;
-  left: 46.5vw;
-  top: 31vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(19) {
@@ -1057,16 +1078,14 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 4.8s;
-  left: 45vw;
-  top: 85vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 .aos-animate #section-3 a:nth-child(20) {
@@ -1075,18 +1094,106 @@ canvas {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
-  left: 73.5vw;
-  top: 61vh;
 }
 
 @keyframes scale {
   0% {
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
+.aos-animate #section-3 a:nth-child(1) {
+  top: 25vh;
+  left: 15vw;
+}
+
+.aos-animate #section-3 a:nth-child(2) {
+  top: 85vh;
+  left: 20vw;
+}
+
+.aos-animate #section-3 a:nth-child(3) {
+  left: 55vw;
+  top: 40vh;
+}
+
+.aos-animate #section-3 a:nth-child(4) {
+  top: 100vh;
+  left: 80vw;
+}
+
+.aos-animate #section-3 a:nth-child(5) {
+  top: 50vh;
+  left: 20vw;
+}
+
+.aos-animate #section-3 a:nth-child(6) {
+  left: 10vw;
+  top: 35vh;
+}
+
+.aos-animate #section-3 a:nth-child(7) {
+  left: 80vw;
+  top: 70vh;
+}
+
+.aos-animate #section-3 a:nth-child(8) {
+  left: 70vw;
+  top: 50vh;
+}
+
+.aos-animate #section-3 a:nth-child(9) {
+  left: 50vw;
+  top: 100vh;
+}
+
+.aos-animate #section-3 a:nth-child(10) {
+  left: 40vw;
+  top: 30vh;
+}
+
+.aos-animate #section-3 a:nth-child(11) {
+  left: 50vw;
+  top: 90vh;
+}
+
+.aos-animate #section-3 a:nth-child(12) {
+  left: 30vw;
+  top: 100vh;
+}
+
+.aos-animate #section-3 a:nth-child(13) {
+  left: 20vw;
+  top: 110vh;
+}
+
+.aos-animate #section-3 a:nth-child(14) {
+  left: 80vw;
+  top: 110vh;
+}
+
+.aos-animate #section-3 a:nth-child(15) {
+  left: 90vw;
+  top: 50vh;
+}
+
+.aos-animate #section-3 a:nth-child(16) {
+  left: 70vw;
+  top: 40vh;
+}
+
+.aos-animate #section-3 a:nth-child(17) {
+  left: 60vw;
+  top: 30vh;
+}
+
+.aos-animate #section-3 a:nth-child(18) {
+  left: 90vw;
+  top: 20vh;
+}
+
 @keyframes animation {
   0% {
     transform: scale(0);
@@ -1122,6 +1229,7 @@ canvas {
 #section-5 h4 {
   max-width: 900px;
   margin-top: 64px;
+  width: 100%;
 }
 #section-5 p {
   width: 100%;
@@ -1140,6 +1248,7 @@ canvas {
   border-bottom: 1px solid #000;
   transition: all 0.4s ease;
   width: 900px;
+  max-width: 100%;
 }
 
 .aos-animate#section-5 p, .aos-animate#section-7 h3, .aos-animate#tech-section-7 h3, .aos-animate#philanthropy-section-7 h3 {
@@ -1577,6 +1686,7 @@ canvas {
 }
 #section-7 .driver, #tech-section-7 .driver, #philanthropy-section-7 .driver {
   position: relative;
+  width: 70%;
   max-width: 900px;
 }
 #section-7 .driver .wp-block-columns, #tech-section-7 .driver .wp-block-columns, #philanthropy-section-7 .driver .wp-block-columns {
@@ -1663,6 +1773,7 @@ canvas {
 #section-8 .signal, #tech-section-8 .signal, #philanthropy-section-8 .signal {
   width: -moz-fit-content;
   width: fit-content;
+  max-width: 100%;
   margin: 24px;
   background-color: #fff;
   flex: 0 0 auto;

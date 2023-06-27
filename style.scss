@@ -280,7 +280,7 @@ canvas{
   background-color: $grey;
   height: 130vh;
   justify-content: center;
-  // padding-top: 40vh;
+  padding-top: 10vh;
   // padding-bottom: 40vh;
   &:before{
     content: '';
@@ -320,16 +320,19 @@ canvas{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: $grey;
+    border-radius: 25px;
   }
   h2{
     text-align: center;
+    background-color: $grey;
   }
   p:nth-child(2){
     width: 900px;
     display: block;
     margin: auto;
-    margin-top: 24px;
-    margin-bottom: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   a{
     padding: 10px 24px;
@@ -343,9 +346,11 @@ canvas{
     vertical-align: middle;
     position: absolute;
     top: 50%;
+    left: 50%;
     background-color: white;
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
     white-space: nowrap;
+    z-index: -1;
   }
 }
 
@@ -372,19 +377,107 @@ canvas{
       animation-duration: 1s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.2}s;
-      left: #{$randomNumber * 1.5}vw;
-      top: #{$randomNumber2 * 2 + 5}vh;
   }
   @keyframes scale {
     0% {
-      transform: scale(0) rotate(0) ;
+      transform: scale(0) translate(-50%, -50%);
     }
     100% {
-      transform: scale(1);
+      transform: scale(1) translate(-50%, -50%);
     }
   }
-  
 }
+
+.aos-animate #section-2 a:nth-child(1) {
+  top: 25vh;
+  left: 10vw;
+}
+
+.aos-animate #section-2 a:nth-child(2) {
+  top: 80vh;
+  left: 20vw;
+}
+
+.aos-animate #section-2 a:nth-child(3) {
+  left: 60vw;
+  top: 40vh;
+}
+
+.aos-animate #section-2 a:nth-child(4) {
+  top: 100vh;
+  left: 80vw;
+}
+
+.aos-animate #section-2 a:nth-child(5) {
+  top: 60vh;
+  left: 20vw;
+}
+
+.aos-animate #section-2 a:nth-child(6) {
+  left: 10vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(7) {
+  left: 80vw;
+  top: 80vh;
+}
+
+.aos-animate #section-2 a:nth-child(8) {
+  left: 80vw;
+  top: 50vh;
+}
+
+.aos-animate #section-2 a:nth-child(9) {
+  left: 50vw;
+  top: 100vh;
+}
+
+.aos-animate #section-2 a:nth-child(10) {
+  left: 40vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(11) {
+  left: 50vw;
+  top: 90vh;
+}
+
+.aos-animate #section-2 a:nth-child(12) {
+  left: 30vw;
+  top: 100vh;
+}
+
+.aos-animate #section-2 a:nth-child(13) {
+  left: 20vw;
+  top: 110vh;
+}
+
+.aos-animate #section-2 a:nth-child(14) {
+  left: 80vw;
+  top: 110vh;
+}
+
+.aos-animate #section-2 a:nth-child(15) {
+  left: 90vw;
+  top: 50vh;
+}
+
+.aos-animate #section-2 a:nth-child(16) {
+  left: 70vw;
+  top: 40vh;
+}
+
+.aos-animate #section-2 a:nth-child(17) {
+  left: 60vw;
+  top: 30vh;
+}
+
+.aos-animate #section-2 a:nth-child(18) {
+  left: 90vw;
+  top: 20vh;
+}
+
 
 
 
@@ -412,8 +505,9 @@ canvas{
     vertical-align: middle;
     position: absolute;
     top: 40%;
+    left: 50%;
     background-color: $blue;
-    transform: scale(0);
+    transform: scale(0) translate(-50%, -50%);
     white-space: nowrap;
   }
 }
@@ -441,18 +535,106 @@ canvas{
       animation-duration: 1s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.2 + 1}s;
-      left: #{$randomNumber * 1.5}vw;
-      top: #{$randomNumber2 * 2 + 5}vh;
   }
   @keyframes scale {
     0% {
-      transform: scale(0);
+      transform: scale(0) translate(-50%, -50%);
     }
     100% {
-      transform: scale(1);
+      transform: scale(1) translate(-50%, -50%);
     }
   }
   
+}
+
+.aos-animate #section-3 a:nth-child(1) {
+  top: 25vh;
+  left: 15vw;
+}
+
+.aos-animate #section-3 a:nth-child(2) {
+  top: 85vh;
+  left: 20vw;
+}
+
+.aos-animate #section-3 a:nth-child(3) {
+  left: 55vw;
+  top: 40vh;
+}
+
+.aos-animate #section-3 a:nth-child(4) {
+  top: 100vh;
+  left: 80vw;
+}
+
+.aos-animate #section-3 a:nth-child(5) {
+  top: 50vh;
+  left: 20vw;
+}
+
+.aos-animate #section-3 a:nth-child(6) {
+  left: 10vw;
+  top: 35vh;
+}
+
+.aos-animate #section-3 a:nth-child(7) {
+  left: 80vw;
+  top: 70vh;
+}
+
+.aos-animate #section-3 a:nth-child(8) {
+  left: 70vw;
+  top: 50vh;
+}
+
+.aos-animate #section-3 a:nth-child(9) {
+  left: 50vw;
+  top: 100vh;
+}
+
+.aos-animate #section-3 a:nth-child(10) {
+  left: 40vw;
+  top: 30vh;
+}
+
+.aos-animate #section-3 a:nth-child(11) {
+  left: 50vw;
+  top: 90vh;
+}
+
+.aos-animate #section-3 a:nth-child(12) {
+  left: 30vw;
+  top: 100vh;
+}
+
+.aos-animate #section-3 a:nth-child(13) {
+  left: 20vw;
+  top: 110vh;
+}
+
+.aos-animate #section-3 a:nth-child(14) {
+  left: 80vw;
+  top: 110vh;
+}
+
+.aos-animate #section-3 a:nth-child(15) {
+  left: 90vw;
+  top: 50vh;
+}
+
+.aos-animate #section-3 a:nth-child(16) {
+  left: 70vw;
+  top: 40vh;
+}
+
+.aos-animate #section-3 a:nth-child(17) {
+  left: 60vw;
+  top: 30vh;
+}
+
+.aos-animate #section-3 a:nth-child(18) {
+  left: 90vw;
+  top: 20vh;
 }
 
 
@@ -494,6 +676,7 @@ canvas{
   h4{
     max-width: 900px;
     margin-top: 64px;
+    width: 100%;
   }
   p{
     width: 100%;
@@ -510,13 +693,9 @@ canvas{
     font-size: 48px;
     text-align: left;
     border-bottom: 1px solid $black;
-    // margin-left: 50vw;
     transition: all 0.4s ease;
-    // opacity: 0;
-    // white-space: nowrap;
     width: 900px;
-    // color: white;
-  
+    max-width: 100%;
   }
 }
 
@@ -650,6 +829,7 @@ canvas{
   }
   .driver{
     position: relative;
+    width: 70%;
     max-width: 900px;
     .wp-block-columns{
       display: flex;
@@ -737,6 +917,7 @@ canvas{
   }
   .signal{
     width: fit-content;
+    max-width: 100%;
     margin: 24px;
     // margin-top: 200px;
     background-color: $white;
