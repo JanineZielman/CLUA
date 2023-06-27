@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+.signal a:hover {
+  text-decoration: underline;
+}
+
 .menu {
   width: 100vw;
   left: 0;
