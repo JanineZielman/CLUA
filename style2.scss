@@ -30,3 +30,99 @@ $black: #000;
     right: 100%;
   }
 }
+
+.circle.section-6, .circle.back{
+  left: 0;
+  right: auto;
+  animation-name: grow2;
+}
+
+@keyframes grow2 {
+  0% {
+    transform: scale(1) ;
+  }
+  50% {
+    transform: scale(15);
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+.read-more-section{
+  background: white;
+  background-image: linear-gradient(#f2f2f2 .1em, transparent .1em), linear-gradient(90deg, #f2f2f2 .1em, transparent .1em);
+  background-size: 3em 3em;
+  p{
+    padding-bottom: 24px;
+    border-bottom: 1px solid $black;
+  }
+  h2{
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+    // padding-bottom: 48px;
+  }
+  :nth-child(2){
+    transform: scale(0);
+    padding-top: 12vh;
+  }
+  :nth-child(3){
+    transform: scale(0);
+  }
+  :nth-child(4){
+    transform: scale(0);
+  }
+  :nth-child(5){
+    transform: scale(0);
+  }
+  :nth-child(6){
+    transform: scale(0);
+  }
+}
+
+.aos-animate.read-more-section{
+  :nth-child(2){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  :nth-child(3){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  :nth-child(4){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  :nth-child(5){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  :nth-child(6){
+    transform: scale(0);
+    animation-name: msg1;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+}
+

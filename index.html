@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Future Forest</title>
   <link rel="stylesheet" href="aos.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style2.css">
@@ -12,10 +12,9 @@
 </head>
 <body>
   <div class="menu">
-    <img class="logo" src="./images/logo.svg" alt="">
-    <div>
-    </div>
+    <a class="logo" href="/"><img src="./images/logo.svg" alt=""></a>
   </div>
+  <div class="circle" id="circle"></div>
   <div data-aos="fade" class="section hero">
     <img src="./images/23607_CLUAXNoraZeid_Illustration1.png"/>
     <div id="section-1">
@@ -51,6 +50,10 @@
       easing: 'ease-in-sine',
       delay: 0,
     });
+  </script>
+  <script>
+    var circleHash = window.location.hash.replace('#', '')
+    document.getElementById('circle').classList.add(circleHash);
   </script>
 </body>
 </html>
