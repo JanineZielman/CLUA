@@ -1,0 +1,32 @@
+$blue: #15B3C3;
+$white: #fff;
+$grey: #E6E8E3;
+$black: #000;
+
+
+.circle{
+  background-color: $blue;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  animation-name: grow;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  z-index: 999;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1) ;
+  }
+  50% {
+    transform: scale(15);
+  }
+  100%{
+    right: 100%;
+  }
+}
