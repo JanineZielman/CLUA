@@ -58,16 +58,15 @@ $black: #000;
     border-bottom: 1px solid $black;
   }
   h2{
-    position: absolute;
-    top: 5vh;
     width: 100%;
     max-width: 900px;
     text-align: left;
-    // padding-bottom: 48px;
+    padding-bottom: 48px;
+    transform: scale(0);
+    padding-top: 100px;
   }
   :nth-child(2){
     transform: scale(0);
-    padding-top: 12vh;
   }
   :nth-child(3){
     transform: scale(0);
@@ -84,7 +83,7 @@ $black: #000;
 }
 
 .aos-animate.read-more-section{
-  :nth-child(2){
+  :nth-child(2), h2{
     transform: scale(0);
     animation-name: msg1;
     animation-iteration-count: 1;

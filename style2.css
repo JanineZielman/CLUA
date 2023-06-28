@@ -51,15 +51,15 @@
   border-bottom: 1px solid #000;
 }
 .read-more-section h2 {
-  position: absolute;
-  top: 5vh;
   width: 100%;
   max-width: 900px;
   text-align: left;
+  padding-bottom: 48px;
+  transform: scale(0);
+  padding-top: 100px;
 }
 .read-more-section :nth-child(2) {
   transform: scale(0);
-  padding-top: 12vh;
 }
 .read-more-section :nth-child(3) {
   transform: scale(0);
@@ -74,7 +74,7 @@
   transform: scale(0);
 }
 
-.aos-animate.read-more-section :nth-child(2) {
+.aos-animate.read-more-section :nth-child(2), .aos-animate.read-more-section h2 {
   transform: scale(0);
   animation-name: msg1;
   animation-iteration-count: 1;
