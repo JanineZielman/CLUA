@@ -130,6 +130,14 @@ figcaption {
   height: auto;
 }
 
+.icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 0px 0px auto;
+}
+
 .signal {
   border: 1px solid #000;
   text-align: left;
@@ -153,11 +161,15 @@ figcaption {
 .signal div p {
   margin-top: 14px;
   font-size: 18px;
+  padding-top: 14px;
+  width: 100%;
+  max-width: 100%;
+  border-top: 1px solid #000;
 }
 .signal div h3 {
-  border-bottom: 1px solid #000;
-  padding-bottom: 14px;
   margin: 0;
+  width: calc(100% - 60px);
+  display: inline-block;
 }
 
 .section {
