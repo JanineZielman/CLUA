@@ -146,9 +146,13 @@ figcaption{
   display: inline-block;
   vertical-align: top;
   margin: 0px 0px 0px auto;
+  position: absolute;
+  right: 14px;
+  top: 14px;
 }
 
 .signal{
+  position: relative;
   border: 1px solid $black;
   text-align: left;
   padding: 24px 24px;
@@ -1050,6 +1054,15 @@ canvas{
   .next-item{
     text-align: right;
     margin-right: 100px;
+    a{
+      display: flex;
+      align-items: center;
+      img{
+        height: 35px;
+        margin-left: 25px;
+        margin-right: -75px;
+      }
+    }
     &:after{
       content: "";
       width: 75px;
@@ -1067,6 +1080,15 @@ canvas{
   .prev-item{
     text-align: left;
     margin-left: 100px;
+    a{
+      display: flex;
+      align-items: center;
+      img{
+        height: 35px;
+        margin-left: -75px;
+        margin-right: 25px;
+      }
+    }
     &:before{
       content: "";
       width: 75px;

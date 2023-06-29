@@ -113,4 +113,11 @@
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
+
+.prev-button-read-more-page {
+  position: fixed;
+  left: 0;
+  z-index: 999;
+  top: 40%;
 }/*# sourceMappingURL=style2.css.map */
