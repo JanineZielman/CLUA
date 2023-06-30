@@ -2340,4 +2340,8 @@ canvas {
   .hero #philanthropy-section-6 {
     top: 50px;
   }
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
 }/*# sourceMappingURL=style.css.map */
