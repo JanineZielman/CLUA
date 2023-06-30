@@ -245,7 +245,7 @@ canvas{
     margin-top: 25vh;
     text-align: center;
   }
-  #section-1{
+  #section-1, #philanthropy-section-6{
     position: absolute;
     top: 110px;
     width: 100%;
@@ -270,6 +270,12 @@ canvas{
     }
   }
 
+}
+
+.hero #philanthropy-section-6{
+  h2{
+    padding-bottom: 24px;
+  }
 }
 
 
@@ -770,7 +776,33 @@ canvas{
   } 
 }
 
-#section-6, #tech-section-6, #philanthropy-section-6{
+#philanthropy-section-6{
+  h4{
+    transform: scale(0);
+    position: fixed;
+    right: 2vw;
+    bottom: 10vh;
+    width: fit-content;
+    a{
+      text-decoration: none;
+      color: $black;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.4s ease;
+      background-color: $blue;
+      &:hover{
+        transform: scale(3);
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+#section-6, #tech-section-6{
   height: 100vh;
   background: white;
   background-image: linear-gradient(#f2f2f2 .1em, transparent .1em), linear-gradient(90deg, #f2f2f2 .1em, transparent .1em);
@@ -821,7 +853,7 @@ canvas{
   }
 }
 
-.aos-animate#section-6, .aos-animate#tech-section-6, .aos-animate#philanthropy-section-6{
+.aos-animate#section-6, .aos-animate#tech-section-6, .aos-animate #philanthropy-section-6{
   :nth-child(2), h2{
     transform: scale(0);
     animation-name: msg1;
