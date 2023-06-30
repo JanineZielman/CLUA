@@ -201,6 +201,8 @@ figcaption{
   align-items: center;
   flex-direction: column;
   text-align: left;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .hero-sequence {
@@ -1176,7 +1178,7 @@ canvas{
       }
     }
   }
-  h2{
+  h2, h1{
     font-size: 48px;
   }
   h3{
@@ -1194,8 +1196,11 @@ canvas{
       height:50vh;
       object-fit: cover;
     }
-    #section-1 p:last-child{
-      bottom: 10vh;
+    #section-1{
+      top: 60px;
+      p:last-child{
+        bottom: 10vh;
+      }
     }
   }
   #section-4{

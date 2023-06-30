@@ -189,6 +189,8 @@ figcaption {
   align-items: center;
   flex-direction: column;
   text-align: left;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .hero-sequence {
@@ -2244,7 +2246,7 @@ canvas {
   .menu .logo img {
     height: 30px;
   }
-  h2 {
+  h2, h1 {
     font-size: 48px;
   }
   h3 {
@@ -2263,6 +2265,9 @@ canvas {
     height: 50vh;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .hero #section-1 {
+    top: 60px;
   }
   .hero #section-1 p:last-child {
     bottom: 10vh;
