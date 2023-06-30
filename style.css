@@ -12,9 +12,10 @@
   font-family: "Graphik";
   src: url("./GraphikXCond-Bold.otf") format("opentype");
 }
-body {
+body, html {
   max-width: 100vw;
   overflow-x: hidden;
+  position: relative;
 }
 
 * {
