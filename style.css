@@ -1248,6 +1248,13 @@ canvas {
   background-size: 3em 3em;
   color: #000;
 }
+#section-4 .wp-block-columns {
+  display: flex;
+}
+#section-4 .wp-block-columns div {
+  width: auto;
+  margin: 0 10px 10px 10px;
+}
 #section-4 .signal {
   opacity: 0;
 }

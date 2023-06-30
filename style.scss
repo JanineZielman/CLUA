@@ -690,6 +690,13 @@ canvas{
   background-image: linear-gradient(#f2f2f2 .1em, transparent .1em), linear-gradient(90deg, #f2f2f2 .1em, transparent .1em);
   background-size: 3em 3em;
   color: $black;
+  .wp-block-columns{
+    display: flex;
+    div{
+      width: auto;
+      margin: 0 10px 10px 10px;
+    }
+  }
   .signal{
     opacity: 0;
   }
