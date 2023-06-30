@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .signal a:hover {
   text-decoration: underline;
 }
@@ -1833,7 +1837,7 @@ canvas {
 }
 #section-8 h2, #tech-section-8 h2, #philanthropy-section-8 h2 {
   position: sticky;
-  left: 40%;
+  left: 24px;
   top: 50px;
   white-space: nowrap;
 }
@@ -2225,4 +2229,109 @@ canvas {
 }
 .next-prev h2:hover:before {
   transform: translateY(-50%) scale(4);
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    padding: 14px 0;
+  }
+  .menu div {
+    display: none;
+  }
+  .menu .logo {
+    height: 30px;
+  }
+  .menu .logo img {
+    height: 30px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .section {
+    padding: 48px 10px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .hero img {
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .hero #section-1 p:last-child {
+    bottom: 10vh;
+  }
+  #section-4 .wp-block-columns {
+    flex-direction: column;
+  }
+  #section-4 .wp-block-columns div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .signal {
+    padding: 14px 14px;
+  }
+  .signal p {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .signal div h3 {
+    width: calc(100% - 50px);
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  #section-5 {
+    min-height: auto;
+  }
+  #section-5 a {
+    font-size: 30px;
+  }
+  #section-6, #tech-section-6, #philanthropy-section-6 {
+    justify-content: start;
+  }
+  #section-6 h4, #tech-section-6 h4, #philanthropy-section-6 h4 {
+    margin: 10px 0;
+  }
+  #section-6 h4 a, #tech-section-6 h4 a, #philanthropy-section-6 h4 a {
+    width: 120px;
+    height: 120px;
+  }
+  #section-7 .driver, #tech-section-7 .driver, #philanthropy-section-7 .driver {
+    width: 95%;
+  }
+  #section-8, #tech-section-8, #philanthropy-section-8 {
+    width: 100vw;
+  }
+  #tech-section-6 h2 {
+    padding-top: 24px;
+  }
+  .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+  }
+  .next-prev {
+    flex-wrap: wrap;
+  }
+  .next-prev .prev-item {
+    position: relative;
+  }
+  .next-prev .prev-item:before {
+    margin-left: -100px;
+  }
+  .next-prev .next-item {
+    position: relative;
+    margin-top: 24px;
+  }
+  .hero #philanthropy-section-6 {
+    top: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
