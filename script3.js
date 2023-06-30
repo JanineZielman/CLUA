@@ -13,11 +13,13 @@ async function logJSONData() {
 
 logJSONData()
 
-const scrollContainer = document.getElementById("tech-section-8");
+const scrollContainer2 = document.getElementById("philanthropy-section-8");
 
-scrollContainer.addEventListener("wheel", (evt) => {
-    if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
+console.log(scrollContainer2)
+
+scrollContainer2.addEventListener("wheel", (evt) => {
+    if (scrollContainer2.scrollLeft < (scrollContainer2.scrollWidth - scrollContainer2.clientWidth)){
       // evt.preventDefault();
-      scrollContainer.scrollLeft += evt.deltaY;
+      scrollContainer2.scrollLeft += evt.deltaY;
     }
 });

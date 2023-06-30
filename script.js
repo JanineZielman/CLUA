@@ -46,13 +46,8 @@ moveContainer.addEventListener("mousemove", (evt) => {
 const scrollContainer = document.getElementById("section-8");
 
 scrollContainer.addEventListener("wheel", (evt) => {
-    // if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
-    //   evt.preventDefault();
-    //   scrollContainer.scrollLeft += evt.deltaY;
-    // }
-
-    // console.log(scrollContainer)
-    
-    // console.log(scrollContainer.scrollLeft)
-    // console.log(scrollContainer.scrollWidth - scrollContainer.clientWidth)
+    if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
+      // evt.preventDefault();
+      scrollContainer.scrollLeft += evt.deltaY;
+    }
 });

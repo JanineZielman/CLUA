@@ -974,6 +974,7 @@ canvas{
 #section-8, #tech-section-8, #philanthropy-section-8{
   overflow-x: scroll;
   // overflow-y: hidden;
+  max-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -992,12 +993,13 @@ canvas{
     width: fit-content;
     max-width: 100%;
     margin: 24px;
-    // margin-top: 200px;
+    margin-top: 200px;
     background-color: $white;
     flex: 0 0 auto;
     display: flex;
     align-items: center;
-    margin-top: 500px;
+    opacity: 0;
+    // margin-top: 500px;
     div:nth-child(1){
       width: 100%;
       max-width: 500px;
@@ -1032,12 +1034,20 @@ canvas{
 
 
 .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal{
-  animation-name: move-up;
+  animation-name: fade-in;
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes move-up {
@@ -1096,8 +1106,10 @@ canvas{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30vh;
+  height: auto;
+  min-height: 18vh;
   position: relative;
+  overflow: visible;
   .next-item{
     text-align: right;
     margin-right: 100px;
