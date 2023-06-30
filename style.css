@@ -2169,6 +2169,7 @@ canvas {
   justify-content: space-between;
   align-items: center;
   height: 30vh;
+  position: relative;
 }
 .next-prev .next-item {
   text-align: right;
