@@ -265,6 +265,9 @@ canvas{
       margin: 0;
       margin-top: 14px;
       background-color: $white;
+      border-radius: 24px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       &:last-child{
         background-color: $white;
         width: fit-content;
@@ -809,6 +812,7 @@ canvas{
   }
 }
 
+
 #section-6, #tech-section-6{
   height: 100vh;
   background: white;
@@ -857,6 +861,12 @@ canvas{
         font-size: 8px;
       }
     }
+  }
+}
+
+#tech-section-6{
+  h2{
+    padding-top: 100px;
   }
 }
 
@@ -973,8 +983,7 @@ canvas{
 
 #section-8, #tech-section-8, #philanthropy-section-8{
   overflow-x: scroll;
-  // overflow-y: hidden;
-  max-height: 100vh;
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -1249,9 +1258,12 @@ canvas{
     }
   }
   #section-6, #tech-section-6, #philanthropy-section-6{
-    justify-content: start;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
     h4{
       margin: 10px 0;
+      position: relative;
       a{
         width: 120px;
         height: 120px;
@@ -1276,19 +1288,28 @@ canvas{
   }
   .next-prev{
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
     .prev-item{
       position: relative;
+      font-size: 30px;
       &:before{
         margin-left: -100px;
       }
     }
     .next-item{
       position: relative;
-      margin-top: 24px;
+      margin-top: 48px;
+      font-size: 30px;
     }
   }
   .hero #philanthropy-section-6{
     top: 50px;
+    justify-content: start;
+    h4{
+      position: absolute;
+      bottom: 10vh;
+    }
   }
   body{
     overflow-x: hidden;

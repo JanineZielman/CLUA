@@ -256,6 +256,9 @@ canvas {
   margin: 0;
   margin-top: 14px;
   background-color: #fff;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .hero #section-1 p:last-child, .hero #philanthropy-section-6 p:last-child {
   background-color: #fff;
@@ -1719,6 +1722,10 @@ canvas {
   font-size: 8px;
 }
 
+#tech-section-6 h2 {
+  padding-top: 100px;
+}
+
 .aos-animate#section-6 :nth-child(2), .aos-animate#section-6 h2, .aos-animate#tech-section-6 :nth-child(2), .aos-animate#tech-section-6 h2, .aos-animate #philanthropy-section-6 :nth-child(2), .aos-animate #philanthropy-section-6 h2 {
   transform: scale(0);
   animation-name: msg1;
@@ -1829,7 +1836,7 @@ canvas {
 
 #section-8, #tech-section-8, #philanthropy-section-8 {
   overflow-x: scroll;
-  max-height: 100vh;
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -2314,10 +2321,13 @@ canvas {
     font-size: 30px;
   }
   #section-6, #tech-section-6, #philanthropy-section-6 {
-    justify-content: start;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
   }
   #section-6 h4, #tech-section-6 h4, #philanthropy-section-6 h4 {
     margin: 10px 0;
+    position: relative;
   }
   #section-6 h4 a, #tech-section-6 h4 a, #philanthropy-section-6 h4 a {
     width: 120px;
@@ -2339,19 +2349,28 @@ canvas {
   }
   .next-prev {
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .next-prev .prev-item {
     position: relative;
+    font-size: 30px;
   }
   .next-prev .prev-item:before {
     margin-left: -100px;
   }
   .next-prev .next-item {
     position: relative;
-    margin-top: 24px;
+    margin-top: 48px;
+    font-size: 30px;
   }
   .hero #philanthropy-section-6 {
     top: 50px;
+    justify-content: start;
+  }
+  .hero #philanthropy-section-6 h4 {
+    position: absolute;
+    bottom: 10vh;
   }
   body {
     overflow-x: hidden;
