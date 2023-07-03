@@ -131,3 +131,12 @@ $black: #000;
   z-index: 999;
   top: 40%;
 }
+
+@media only screen and (max-width: 600px) {
+  .prev-button-read-more-page{
+    position: relative;
+  }
+  .read-more-section h2{
+    padding-top: 24px;
+  }
+}
