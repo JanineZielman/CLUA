@@ -103,7 +103,7 @@ h2{
 
 h3{
   font-family: "Azo";
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1;
   font-weight: 500;
 }
@@ -992,6 +992,7 @@ canvas{
   background: white;
   background-image: linear-gradient(#f2f2f2 .1em, transparent .1em), linear-gradient(90deg, #f2f2f2 .1em, transparent .1em);
   background-size: 3em 3em;
+  padding-bottom: 14px;
   h2{
     position: sticky;
     left: 24px;
@@ -1185,7 +1186,12 @@ canvas{
   }
 }
 
-
+.signal{
+  p{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+}
 
 
 @media only screen and (max-width: 600px) {
