@@ -126,6 +126,11 @@ p a {
   text-decoration: underline;
 }
 
+.section2 p a {
+  color: #333;
+  text-decoration: none;
+}
+
 figure {
   padding: 0;
   margin: 0;
@@ -337,12 +342,11 @@ canvas {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
   border-radius: 25px;
 }
 #section-2 h2 {
   text-align: center;
-  background-color: #f2f2f2;
+  margin-top: 150px;
 }
 #section-2 p:nth-child(2) {
   width: 900px;
@@ -352,23 +356,9 @@ canvas {
   padding-bottom: 24px;
 }
 #section-2 a {
-  padding: 10px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: -moz-fit-content;
-  width: fit-content;
-  border-radius: 50px;
-  text-decoration: none;
-  margin: 14px;
-  vertical-align: middle;
-  position: absolute;
   top: 50%;
   left: 50%;
   background-color: white;
-  transform: scale(0) translate(-50%, -50%);
-  white-space: nowrap;
-  z-index: -1;
 }
 
 .aos-animate #section-2 h3 {
@@ -384,10 +374,11 @@ canvas {
 
 .aos-animate #section-2 a:nth-child(1) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 @keyframes scale {
@@ -400,56 +391,9 @@ canvas {
 }
 .aos-animate #section-2 a:nth-child(2) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 0.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(3) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 0.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(4) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 0.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(5) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
@@ -462,12 +406,13 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-2 a:nth-child(6) {
+.aos-animate #section-2 a:nth-child(3) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1.5s;
 }
 
 @keyframes scale {
@@ -478,58 +423,11 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-2 a:nth-child(7) {
+.aos-animate #section-2 a:nth-child(4) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(8) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(9) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(10) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
 }
@@ -542,12 +440,13 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-2 a:nth-child(11) {
+.aos-animate #section-2 a:nth-child(5) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 2.2s;
+  animation-delay: 2.5s;
 }
 
 @keyframes scale {
@@ -558,58 +457,11 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-2 a:nth-child(12) {
+.aos-animate #section-2 a:nth-child(6) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(13) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(14) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-2 a:nth-child(15) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
 }
@@ -622,12 +474,166 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+.aos-animate #section-2 a:nth-child(7) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(8) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(9) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(10) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(11) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(12) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(13) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 6.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(14) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-2 a:nth-child(15) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 7.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
 .aos-animate #section-2 a:nth-child(16) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3.2s;
+  animation-delay: 8s;
 }
 
 @keyframes scale {
@@ -640,10 +646,11 @@ canvas {
 }
 .aos-animate #section-2 a:nth-child(17) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3.4s;
+  animation-delay: 8.5s;
 }
 
 @keyframes scale {
@@ -656,10 +663,11 @@ canvas {
 }
 .aos-animate #section-2 a:nth-child(18) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3.6s;
+  animation-delay: 9s;
 }
 
 @keyframes scale {
@@ -672,10 +680,11 @@ canvas {
 }
 .aos-animate #section-2 a:nth-child(19) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3.8s;
+  animation-delay: 9.5s;
 }
 
 @keyframes scale {
@@ -688,10 +697,11 @@ canvas {
 }
 .aos-animate #section-2 a:nth-child(20) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 10s;
 }
 
 @keyframes scale {
@@ -806,41 +816,18 @@ canvas {
   width: 100%;
 }
 #section-3 a {
-  padding: 10px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: -moz-fit-content;
-  width: fit-content;
-  border-radius: 50px;
-  text-decoration: none;
-  margin: 14px;
-  vertical-align: middle;
-  position: absolute;
   top: 40%;
   left: 50%;
   background-color: #15B3C3;
-  transform: scale(0) translate(-50%, -50%);
-  white-space: nowrap;
-}
-
-.aos-animate #section-3 h3 {
-  transform: scale(0);
-  animation-delay: 6s, 12s;
-  animation-name: animation;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  text-align: center;
-  width: 100%;
 }
 
 .aos-animate #section-3 a:nth-child(1) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1.5s;
 }
 
 @keyframes scale {
@@ -853,56 +840,9 @@ canvas {
 }
 .aos-animate #section-3 a:nth-child(2) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(3) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(4) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 1.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(5) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
 }
@@ -915,12 +855,13 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-3 a:nth-child(6) {
+.aos-animate #section-3 a:nth-child(3) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 2.2s;
+  animation-delay: 2.5s;
 }
 
 @keyframes scale {
@@ -931,58 +872,11 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-3 a:nth-child(7) {
+.aos-animate #section-3 a:nth-child(4) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(8) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(9) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 2.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(10) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
 }
@@ -995,12 +889,13 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-3 a:nth-child(11) {
+.aos-animate #section-3 a:nth-child(5) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3.2s;
+  animation-delay: 3.5s;
 }
 
 @keyframes scale {
@@ -1011,58 +906,11 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
-.aos-animate #section-3 a:nth-child(12) {
+.aos-animate #section-3 a:nth-child(6) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 3.4s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(13) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 3.6s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(14) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 3.8s;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0) translate(-50%, -50%);
-  }
-  100% {
-    transform: scale(1) translate(-50%, -50%);
-  }
-}
-.aos-animate #section-3 a:nth-child(15) {
-  animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 4s;
 }
@@ -1075,12 +923,166 @@ canvas {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+.aos-animate #section-3 a:nth-child(7) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(8) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(9) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(10) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(11) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 6.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(12) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(13) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 7.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(14) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+.aos-animate #section-3 a:nth-child(15) {
+  animation-name: scale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 8.5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
 .aos-animate #section-3 a:nth-child(16) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4.2s;
+  animation-delay: 9s;
 }
 
 @keyframes scale {
@@ -1093,10 +1095,11 @@ canvas {
 }
 .aos-animate #section-3 a:nth-child(17) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4.4s;
+  animation-delay: 9.5s;
 }
 
 @keyframes scale {
@@ -1109,10 +1112,11 @@ canvas {
 }
 .aos-animate #section-3 a:nth-child(18) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4.6s;
+  animation-delay: 10s;
 }
 
 @keyframes scale {
@@ -1125,10 +1129,11 @@ canvas {
 }
 .aos-animate #section-3 a:nth-child(19) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4.8s;
+  animation-delay: 10.5s;
 }
 
 @keyframes scale {
@@ -1141,10 +1146,11 @@ canvas {
 }
 .aos-animate #section-3 a:nth-child(20) {
   animation-name: scale;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 11s;
 }
 
 @keyframes scale {
@@ -1191,8 +1197,8 @@ canvas {
 }
 
 .aos-animate #section-3 a:nth-child(8) {
-  left: 70vw;
-  top: 50vh;
+  left: 10vw;
+  top: 70vh;
 }
 
 .aos-animate #section-3 a:nth-child(9) {
@@ -1243,6 +1249,28 @@ canvas {
 .aos-animate #section-3 a:nth-child(18) {
   left: 90vw;
   top: 20vh;
+}
+
+#section-2 a, #section-3 a {
+  cursor: not-allowed;
+  pointer-events: none;
+  font-size: 18px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 14px;
+  vertical-align: middle;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: scale(0) translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
 }
 
 @keyframes animation {
