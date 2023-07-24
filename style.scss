@@ -429,7 +429,7 @@ canvas{
       animation-name: scale;
       animation-iteration-count: infinite;
       animation-direction: alternate;
-      animation-duration: 2s;
+      animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.5}s;
   }
@@ -576,7 +576,7 @@ canvas{
       animation-name: scale;
       animation-iteration-count: infinite;
       animation-direction: alternate;
-      animation-duration: 2s;
+      animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.5 + 1}s;
   }
