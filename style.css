@@ -1866,7 +1866,8 @@ canvas {
 }
 
 #section-8, #tech-section-8, #philanthropy-section-8 {
-  overflow-x: scroll;
+  overflow-x: hidden;
+  max-width: 100vw;
   overflow-y: hidden;
   display: flex;
   flex-direction: row;
@@ -1880,7 +1881,8 @@ canvas {
 }
 #section-8 h2, #tech-section-8 h2, #philanthropy-section-8 h2 {
   position: sticky;
-  left: 24px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 50px;
   white-space: nowrap;
 }
@@ -1894,7 +1896,6 @@ canvas {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  opacity: 0;
 }
 #section-8 .signal div:nth-child(1), #tech-section-8 .signal div:nth-child(1), #philanthropy-section-8 .signal div:nth-child(1) {
   width: 100%;
@@ -1924,13 +1925,27 @@ canvas {
   }
 }
 .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal {
-  animation-name: fade-in;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-name: slider;
+  animation-iteration-count: infinite;
+  animation-duration: 120s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+.aos-animate#section-8 .signal:hover, .aos-animate#tech-section-8 .signal:hover, .aos-animate#philanthropy-section-8 .signal:hover {
+  animation-play-state: paused;
+  z-index: 99;
+  cursor: pointer;
 }
 
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -7800px;
+  }
+}
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -1947,246 +1962,6 @@ canvas {
     margin-top: 200px;
   }
 }
-.aos-animate#section-8 .signal:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.aos-animate#section-8 .signal:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.aos-animate#section-8 .signal:nth-child(3) {
-  animation-delay: 0.6s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(3) {
-  animation-delay: 0.6s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(3) {
-  animation-delay: 0.6s;
-}
-
-.aos-animate#section-8 .signal:nth-child(4) {
-  animation-delay: 0.8s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(4) {
-  animation-delay: 0.8s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(4) {
-  animation-delay: 0.8s;
-}
-
-.aos-animate#section-8 .signal:nth-child(5) {
-  animation-delay: 1s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(5) {
-  animation-delay: 1s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(5) {
-  animation-delay: 1s;
-}
-
-.aos-animate#section-8 .signal:nth-child(6) {
-  animation-delay: 1.2s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(6) {
-  animation-delay: 1.2s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(6) {
-  animation-delay: 1.2s;
-}
-
-.aos-animate#section-8 .signal:nth-child(7) {
-  animation-delay: 1.4s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(7) {
-  animation-delay: 1.4s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(7) {
-  animation-delay: 1.4s;
-}
-
-.aos-animate#section-8 .signal:nth-child(8) {
-  animation-delay: 1.6s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(8) {
-  animation-delay: 1.6s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(8) {
-  animation-delay: 1.6s;
-}
-
-.aos-animate#section-8 .signal:nth-child(9) {
-  animation-delay: 1.8s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(9) {
-  animation-delay: 1.8s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(9) {
-  animation-delay: 1.8s;
-}
-
-.aos-animate#section-8 .signal:nth-child(10) {
-  animation-delay: 2s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(10) {
-  animation-delay: 2s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(10) {
-  animation-delay: 2s;
-}
-
-.aos-animate#section-8 .signal:nth-child(11) {
-  animation-delay: 2.2s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(11) {
-  animation-delay: 2.2s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(11) {
-  animation-delay: 2.2s;
-}
-
-.aos-animate#section-8 .signal:nth-child(12) {
-  animation-delay: 2.4s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(12) {
-  animation-delay: 2.4s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(12) {
-  animation-delay: 2.4s;
-}
-
-.aos-animate#section-8 .signal:nth-child(13) {
-  animation-delay: 2.6s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(13) {
-  animation-delay: 2.6s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(13) {
-  animation-delay: 2.6s;
-}
-
-.aos-animate#section-8 .signal:nth-child(14) {
-  animation-delay: 2.8s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(14) {
-  animation-delay: 2.8s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(14) {
-  animation-delay: 2.8s;
-}
-
-.aos-animate#section-8 .signal:nth-child(15) {
-  animation-delay: 3s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(15) {
-  animation-delay: 3s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(15) {
-  animation-delay: 3s;
-}
-
-.aos-animate#section-8 .signal:nth-child(16) {
-  animation-delay: 3.2s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(16) {
-  animation-delay: 3.2s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(16) {
-  animation-delay: 3.2s;
-}
-
-.aos-animate#section-8 .signal:nth-child(17) {
-  animation-delay: 3.4s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(17) {
-  animation-delay: 3.4s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(17) {
-  animation-delay: 3.4s;
-}
-
-.aos-animate#section-8 .signal:nth-child(18) {
-  animation-delay: 3.6s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(18) {
-  animation-delay: 3.6s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(18) {
-  animation-delay: 3.6s;
-}
-
-.aos-animate#section-8 .signal:nth-child(19) {
-  animation-delay: 3.8s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(19) {
-  animation-delay: 3.8s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(19) {
-  animation-delay: 3.8s;
-}
-
-.aos-animate#section-8 .signal:nth-child(20) {
-  animation-delay: 4s;
-}
-
-.aos-animate#tech-section-8 .signal:nth-child(20) {
-  animation-delay: 4s;
-}
-
-.aos-animate#philanthropy-section-8 .signal:nth-child(20) {
-  animation-delay: 4s;
-}
-
 .next {
   display: flex;
   justify-content: end;

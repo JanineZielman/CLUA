@@ -13,11 +13,11 @@ async function logJSONData() {
 
 logJSONData()
 
-const scrollContainer = document.getElementById("tech-section-8");
+// const scrollContainer = document.getElementById("tech-section-8");
 
-scrollContainer.addEventListener("wheel", (evt) => {
-    if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
-      // evt.preventDefault();
-      scrollContainer.scrollLeft += evt.deltaY;
-    }
-});
+// scrollContainer.addEventListener("wheel", (evt) => {
+//     if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
+//       // evt.preventDefault();
+//       scrollContainer.scrollLeft += evt.deltaY;
+//     }
+// });

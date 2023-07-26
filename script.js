@@ -8,6 +8,21 @@ async function logJSONData() {
     if (document.getElementById(element.slug)){
       document.getElementById(element.slug).innerHTML = element.content.rendered
     }
+    // if(element.slug == 'section-8'){
+    //   // console.log(element.content.rendered)
+    //   const parser = new DOMParser();
+    //   const html = parser.parseFromString(element.content.rendered, 'text/html');
+    //   const body = html.body;
+    //   // console.log(body.getElementsByClassName("signal"))
+    //   Array.from(body.getElementsByClassName("signal")).forEach((signal) => {
+    //     console.log(signal)
+    //     // var iDiv = document.createElement('div');
+    //     signal.className = 'gallery-cell';
+    //     // iDiv.appendChild = signal;
+    //     document.getElementById('gallery').appendChild(signal);
+    //     document.getElementById('gallery').classList.add('js-flickity');
+    //   });
+    // }
   });
   console.log(jsonSections)
 }
@@ -15,11 +30,11 @@ async function logJSONData() {
 logJSONData()
 
 
-const scrollContainer = document.getElementById("section-8");
+// const scrollContainer = document.getElementById("section-8");
 
-scrollContainer.addEventListener("wheel", (evt) => {
-    if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
-      // evt.preventDefault();
-      scrollContainer.scrollLeft += evt.deltaY;
-    }
-});
+// scrollContainer.addEventListener("wheel", (evt) => {
+//     if (scrollContainer.scrollLeft < (scrollContainer.scrollWidth - scrollContainer.clientWidth)){
+//       // evt.preventDefault();
+//       scrollContainer.scrollLeft += evt.deltaY;
+//     }
+// });
