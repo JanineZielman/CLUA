@@ -396,21 +396,9 @@ canvas{
     padding-bottom: 24px;
   }
   a{
-    // padding: 10px 24px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // width: fit-content;
-    // border-radius: 50px;
-    // text-decoration: none;
-    // margin: 14px;
-    // vertical-align: middle;
-    // position: absolute;
     top: 50%;
     left: 50%;
     background-color: $white-light;
-    // transform: scale(0) translate(-50%, -50%);
-    // z-index: -1;
   }
 }
 
@@ -1023,7 +1011,7 @@ canvas{
 }
 
 #section-8, #tech-section-8, #philanthropy-section-8{
-  overflow-x: hidden;
+  overflow-x: scroll;
   max-width: 100vw;
   overflow-y: hidden;
   display: flex;
@@ -1089,7 +1077,7 @@ canvas{
 .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal{
   animation-name: slider;
   animation-iteration-count: infinite;
-  animation-duration: 120s;
+  animation-duration: 30s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
@@ -1105,9 +1093,10 @@ canvas{
     left: 0;
   }
   100% {
-    left: calc(-600px * 13);
+    left: calc(-600px * 3);
   }
 }
+
 
 @keyframes fade-in {
   0% {

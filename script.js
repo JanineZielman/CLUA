@@ -23,11 +23,13 @@ async function logJSONData() {
     //     document.getElementById('gallery').classList.add('js-flickity');
     //   });
     // }
+
   });
   console.log(jsonSections)
 }
 
 logJSONData()
+
 
 
 // const scrollContainer = document.getElementById("section-8");
@@ -37,4 +39,5 @@ logJSONData()
 //       // evt.preventDefault();
 //       scrollContainer.scrollLeft += evt.deltaY;
 //     }
+  
 // });
