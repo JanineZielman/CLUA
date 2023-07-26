@@ -362,7 +362,7 @@ canvas {
 #section-2 a {
   top: 50%;
   left: 50%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6784313725);
 }
 
 .aos-animate #section-2 h3 {
@@ -822,7 +822,7 @@ canvas {
 #section-3 a {
   top: 40%;
   left: 50%;
-  background-color: #15B3C3;
+  background-color: rgba(21, 178, 195, 0.6784313725);
 }
 
 .aos-animate #section-3 a:nth-child(1) {

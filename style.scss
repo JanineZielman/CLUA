@@ -16,7 +16,9 @@
 }
 
 $blue: #15B3C3;
+$blue-light: #15b2c3ad;
 $white: #fff;
+$white-light: #ffffffad;
 $grey: #f2f2f2;
 $black: #333;
 
@@ -406,7 +408,7 @@ canvas{
     // position: absolute;
     top: 50%;
     left: 50%;
-    background-color: white;
+    background-color: $white-light;
     // transform: scale(0) translate(-50%, -50%);
     // z-index: -1;
   }
@@ -555,7 +557,7 @@ canvas{
   a{
     top: 40%;
     left: 50%;
-    background-color: $blue;
+    background-color: $blue-light;
   }
 }
 
