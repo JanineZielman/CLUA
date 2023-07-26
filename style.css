@@ -277,8 +277,12 @@ canvas {
   padding: 5px 20px;
   border-radius: 25px;
   position: fixed;
-  bottom: 20vh;
+  bottom: 15vh;
   transform: scale(0);
+}
+.hero #section-1 p:last-child a, .hero #philanthropy-section-6 p:last-child a, .hero #tech-section-6 p:last-child a {
+  text-decoration: none;
+  color: #333;
 }
 
 .hero #philanthropy-section-6 h2, .hero #tech-section-6 h2 {
@@ -1705,7 +1709,8 @@ canvas {
 }
 
 #section-6 {
-  height: 100vh;
+  height: auto;
+  min-height: auto;
   background: white;
   background-image: linear-gradient(#f2f2f2 0.1em, transparent 0.1em), linear-gradient(90deg, #f2f2f2 0.1em, transparent 0.1em);
   background-size: 3em 3em;
@@ -1724,7 +1729,10 @@ canvas {
   margin: 24px 0;
   text-align: left;
   padding-bottom: 24px;
-  border-bottom: 1px solid #333;
+  background-color: white;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #section-6 :nth-child(2) {
   transform: scale(0);
@@ -1734,9 +1742,11 @@ canvas {
 }
 #section-6 h4 {
   transform: scale(0);
-  position: fixed;
+  position: relative;
   right: 2vw;
   bottom: 0;
+  margin-left: auto;
+  margin-right: 2vw;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -1793,8 +1803,9 @@ canvas {
   display: block;
   height: 0;
   font-style: normal;
-  transition: height 0.4s ease;
+  transition: all 0.4s ease;
   overflow-y: hidden;
+  opacity: 0;
 }
 #section-7 .driver, #tech-section-7 .driver, #philanthropy-section-7 .driver {
   position: relative;
@@ -1828,7 +1839,8 @@ canvas {
 #section-7 .driver:hover p em, #section-7 .driver:hover figure, #tech-section-7 .driver:hover p em, #tech-section-7 .driver:hover figure, #philanthropy-section-7 .driver:hover p em, #philanthropy-section-7 .driver:hover figure {
   height: 300px;
   overflow-y: scroll;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 40px 0;
+  opacity: 1;
 }
 #section-7 .driver:hover h3:after, #tech-section-7 .driver:hover h3:after, #philanthropy-section-7 .driver:hover h3:after {
   transform: translateY(-50%) rotate(90deg);
@@ -1962,33 +1974,6 @@ canvas {
     margin-top: 200px;
   }
 }
-.next {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  height: 30vh;
-}
-.next h2 {
-  text-align: right;
-  margin-right: 100px;
-}
-.next h2 a:after {
-  content: "";
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  background-color: #15B3C3;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 10px;
-  z-index: -1;
-  transition: all 0.4s ease;
-}
-.next h2 a:hover:after {
-  transform: translateY(-50%) scale(4);
-}
-
 .next-prev {
   display: flex;
   justify-content: space-between;
@@ -1999,6 +1984,9 @@ canvas {
   width: 100%;
   overflow: visible;
   z-index: 999;
+}
+.next-prev h2 {
+  font-size: 36px;
 }
 .next-prev .next-item {
   text-align: right;
