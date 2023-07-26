@@ -1116,18 +1116,6 @@ canvas{
   }
 }
 
-// @for $i from 1 through 20 {
-//   .aos-animate#section-8 .signal:nth-child(#{$i}) {
-//       animation-delay: #{$i * 0.2}s;
-//   } 
-//   .aos-animate#tech-section-8 .signal:nth-child(#{$i}) {
-//     animation-delay: #{$i * 0.2}s;
-//   }
-//   .aos-animate#philanthropy-section-8 .signal:nth-child(#{$i}) {
-//     animation-delay: #{$i * 0.2}s;
-//   }    
-// }
-
 .next-prev{
   display: flex;
   justify-content: space-between;
@@ -1319,11 +1307,6 @@ canvas{
   #section-8, #tech-section-8, #philanthropy-section-8{
     width: 100vw;
   }
-  // #tech-section-6{
-  //   h2{
-  //     padding-top: 24px;
-  //   }
-  // }
   .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal{
     margin-left: 10px;
     margin-right: 10px;
