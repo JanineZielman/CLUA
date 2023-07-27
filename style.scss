@@ -426,13 +426,16 @@ canvas{
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.5}s;
+      opacity: 0;
   }
   @keyframes scale {
     0% {
       transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
     }
     100% {
       transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
     }
   }
 }
@@ -573,13 +576,16 @@ canvas{
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: #{$i * 0.5 + 1}s;
+      opacity: 0;
   }
   @keyframes scale {
     0% {
       transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
     }
     100% {
       transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
     }
   }
   
@@ -859,8 +865,10 @@ canvas{
     // border-bottom: 1px solid $black;
     background-color: white;
     border-radius: 24px;
+    padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     a{
       color: $black;
       text-decoration: none;
@@ -1022,6 +1030,25 @@ canvas{
 
 #section-8, #tech-section-8, #philanthropy-section-8{
   overflow-x: scroll;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $blue-light; 
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $blue; 
+  }
+  /* width */
   max-width: 100vw;
   overflow-y: hidden;
   display: flex;
@@ -1084,28 +1111,28 @@ canvas{
 
 
 
-.aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal{
-  animation-name: slider;
-  animation-iteration-count: infinite;
-  animation-duration: 30s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  &:hover {
-    animation-play-state: paused;
-    z-index: 99;
-    cursor: pointer;
-  }
-}
+// .aos-animate#section-8 .signal, .aos-animate#tech-section-8 .signal, .aos-animate#philanthropy-section-8 .signal{
+//   animation-name: slider;
+//   animation-iteration-count: infinite;
+//   animation-duration: 30s;
+//   animation-delay: 1s;
+//   animation-fill-mode: forwards;
+//   animation-timing-function: linear;
+//   &:hover {
+//     animation-play-state: paused;
+//     z-index: 99;
+//     cursor: pointer;
+//   }
+// }
 
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: calc(-600px * 3);
-  }
-}
+// @keyframes slider {
+//   0% {
+//     left: 0;
+//   }
+//   100% {
+//     left: calc(-600px * 3);
+//   }
+// }
 
 
 @keyframes fade-in {
@@ -1357,4 +1384,9 @@ canvas{
     max-width: 100vw;
   }
 
+}
+
+#philanthropy-section-6 h2{
+  width: 100%;
+  max-width: 1000px;
 }
