@@ -261,7 +261,7 @@ canvas{
     height: 80vh;
     object-fit: contain;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 35vh;
     text-align: center;
   }
   #section-1, #philanthropy-section-6, #tech-section-6{
@@ -1403,5 +1403,15 @@ canvas{
     &:hover{
       background-color: $blue;
     }
+  }
+}
+
+#philanthropy-section-9{
+  height: auto;
+  min-height: auto;
+  background-color: $grey;
+  margin-top: 20vh;
+  p{
+    font-size: 14px;
   }
 }
