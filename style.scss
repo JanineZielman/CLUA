@@ -22,6 +22,9 @@ $white-light: #ffffffad;
 $grey: #f2f2f2;
 $black: #333;
 
+*{
+  box-sizing: border-box;
+}
 
 body, html{
   max-width: 100vw;
@@ -29,8 +32,16 @@ body, html{
   position:relative;
 }
 
-*{
-  box-sizing: border-box;
+html{
+  overflow-y: scroll;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+.spacer{
+  height: 20vh;
 }
 
 .signal a:hover{
@@ -216,6 +227,7 @@ figcaption{
   text-align: left;
   padding-top: 48px;
   padding-bottom: 48px;
+  overflow-y: hidden;
 }
 
 .hero-sequence {
@@ -356,18 +368,14 @@ canvas{
     -webkit-transform: scale(-1);
     transform: scale(-1);
   }
-  // &:after{
-  //   content: '';
-  //   background: url(./images/hero-wave.svg);
-  //   width: 100%;
-  //   height: 150px;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position: center center;
-  //   position: absolute;
-  //   bottom: -5px;
-  //   z-index: 999;
-  // }
+}
+
+.section2{
+  height: 115vh;
+  overflow-y: hidden;
+  *{
+    overflow-y: hidden;
+  }
 }
 
 #section-2{
@@ -423,9 +431,9 @@ canvas{
       animation-name: scale;
       animation-iteration-count: infinite;
       animation-direction: alternate;
-      animation-duration: 3s;
+      animation-duration: 10s;
       animation-fill-mode: forwards;
-      animation-delay: #{$i * 0.5}s;
+      animation-delay: #{$i * 1}s;
       opacity: 0;
   }
   @keyframes scale {
@@ -433,9 +441,17 @@ canvas{
       transform: scale(0) translate(-50%, -50%);
       opacity: 0;
     }
-    100% {
+    33% {
       transform: scale(1) translate(-50%, -50%);
       opacity: 1;
+    }
+    66% {
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
     }
   }
 }
@@ -477,7 +493,7 @@ canvas{
 }
 
 .aos-animate #section-2 a:nth-child(4) {
-  top: 50vh;
+  top: 40vh;
   left: 50vw;
 }
 
@@ -492,42 +508,42 @@ canvas{
 }
 
 .aos-animate #section-2 a:nth-child(11) {
-  top: 90vh;
+  top: 85vh;
   left: 10vw;
 }
 
 .aos-animate #section-2 a:nth-child(1) {
-  top: 90vh;
+  top: 85vh;
   left: 30vw;
 }
 
 .aos-animate #section-2 a:nth-child(17) {
-  top: 90vh;
+  top: 85vh;
   left: 50vw;
 }
 
 .aos-animate #section-2 a:nth-child(14) {
-  top: 90vh;
+  top: 85vh;
   left: 70vw;
 }
 
 .aos-animate #section-2 a:nth-child(2) {
-  top: 90vh;
+  top: 85vh;
   left: 90vw;
 }
 
 .aos-animate #section-2 a:nth-child(15) {
-  top: 120vh;
+  top: 100vh;
   left: 10vw;
 }
 
 .aos-animate #section-2 a:nth-child(13) {
-  top: 120vh;
+  top: 100vh;
   left: 50vw;
 }
 
 .aos-animate #section-2 a:nth-child(18) {
-  top: 120vh;
+  top: 100vh;
   left: 90vw;
 }
 
@@ -574,19 +590,32 @@ canvas{
       animation-name: scale;
       animation-iteration-count: infinite;
       animation-direction: alternate;
-      animation-duration: 3s;
+      animation-duration: 10s;
       animation-fill-mode: forwards;
-      animation-delay: #{$i * 0.5 + 1}s;
+      animation-delay: #{$i * 1 + 1}s;
       opacity: 0;
+  }
+  .aos-animate #section-3 a:nth-child(1) {
+    animation-direction: alternate-reverse;
+    animation-delay: 0;
+    transition: all 0.4s ease-in-out;
   }
   @keyframes scale {
     0% {
       transform: scale(0) translate(-50%, -50%);
       opacity: 0;
     }
-    100% {
+    33% {
       transform: scale(1) translate(-50%, -50%);
       opacity: 1;
+    }
+    66% {
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
     }
   }
   
@@ -628,7 +657,7 @@ canvas{
 }
 
 .aos-animate #section-3 a:nth-child(8) {
-  top: 90vh;
+  top: 75vh;
   left: 45vw;
 }
 
@@ -649,17 +678,17 @@ canvas{
 
 .aos-animate #section-3 a:nth-child(4) {
   left: 30vw;
-  top: 110vh;
+  top: 100vh;
 }
 
 .aos-animate #section-3 a:nth-child(18) {
   left: 20vw;
-  top: 110vh;
+  top: 95vh;
 }
 
 .aos-animate #section-3 a:nth-child(14) {
   left: 80vw;
-  top: 110vh;
+  top: 100vh;
 }
 
 .aos-animate #section-3 a:nth-child(9) {
